@@ -1,0 +1,6 @@
+# This file will be used to supply the username and password
+# to the FTP script; it will therefore not be saved into
+# the repository
+
+credentials.txt
+
