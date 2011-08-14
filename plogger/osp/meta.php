@@ -11,7 +11,7 @@ $license: Type of license theme is released under
 
 */
 
-$theme_name = 'Classic';
+$theme_name = 'OSP';
 $version = '1.2';
 $author = 'Mike Johnson';
 $url = 'http://www.plogger.org/';
