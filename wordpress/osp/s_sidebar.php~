@@ -1,5 +1,0 @@
-<li class="widget">
-<h2>Related Posts</h2>
-</li>
-
-<?php comments_template(); ?>
