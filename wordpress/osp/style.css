@@ -33,27 +33,27 @@ Author URI:		http://ospublish.constantvzw.org
 
 @font-face {
     font-family: Polsku;
-    src: url("http://constantvzw.org/www/atfont-face/Polsku.ttf");
+    src: url("http://ospublish.constantvzw.org/atfont-face/Polsku.ttf");
 }
  
 @font-face {
     font-family: Limousine;
-    src: url("http://constantvzw.org/www/atfont-face/Limousine.ttf");
+    src: url("http://ospublish.constantvzw.org/atfont-face/Limousine.ttf");
 }
 
 @font-face {
     font-family: Alphabet-IV;
-    src: url("http://constantvzw.org/www/atfont-face/Alfphabet-IV.ttf");
+    src: url("http://ospublish.constantvzw.org/atfont-face/Alfphabet-IV.ttf");
 }
 
 @font-face {
     font-family: whiskyjazz;
-    src: url("http://constantvzw.org/www/atfont-face/whiskyjazzbeta.ttf");
+    src: url("http://ospublish.constantvzw.org/atfont-face/whiskyjazzbeta.ttf");
 }
 
 
 
-body { color: #333333; font-size: 10px; font-family: LMRoman5-Regular, serif; line-height: 17px; background: white;}
+body { color: #333333; font-size: 10px; font-family: Limousine, serif; line-height: 17px; background: white;}
 
 * { padding: 0; margin: 0; }
 
@@ -95,7 +95,7 @@ pre { margin: 0 0 1.5em 0; overflow: auto; font-size: 1.3em; clear: both; }
 /*---:[ header styles ]:---*/
 
 h1, h2, h3, h4 {}
-h1, h2 {font-weight: normal; font-family: RCAGill, LMRomanUnsl10-Regular, serif; color: black;}
+h1, h2 {font-weight: normal; font-family: Polsku, RCAGill, LMRomanUnsl10-Regular, serif; color: black;}
 
 h1 { text-transform: uppercase; }
 
