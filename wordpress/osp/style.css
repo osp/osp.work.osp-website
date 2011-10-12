@@ -1,0 +1,255 @@
+/*
+Theme Name:		Open Source Publishing
+Theme URI:		http://ospublish.constantvzw.org
+Description:		
+Version:		1.2
+Author:			Open Source Publishing
+Author URI:		http://ospublish.constantvzw.org
+*/
+
+@font-face {
+    font-family: LMMonoLtCond10-Regular;
+    src: url("http://ospublish.constantvzw.org/atfont-face/LMMonoLtCond10-Regular.ttf");
+}
+
+@font-face {
+    font-family: LMRomanUnsl10-Regular;
+    src: url("http://ospublish.constantvzw.org/atfont-face/LMRomanUnsl10-Regular.ttf");
+}
+
+@font-face {
+    font-family: LMRoman5-Regular;
+    src: url("http://ospublish.constantvzw.org/atfont-face/LMRoman5-Regular.ttf");
+}
+
+@font-face {
+    font-family: RCAGill;
+    src: url("http://ospublish.constantvzw.org/atfont-face/RCAGill.ttf");
+}
+@font-face {
+    font-family: SansGuilt1;
+    src: url("http://ospublish.constantvzw.org/atfont-face/SansGuilt1.ttf");
+}
+
+@font-face {
+    font-family: Polsku;
+    src: url("http://constantvzw.org/www/atfont-face/Polsku.ttf");
+}
+ 
+@font-face {
+    font-family: Limousine;
+    src: url("http://constantvzw.org/www/atfont-face/Limousine.ttf");
+}
+
+@font-face {
+    font-family: Alphabet-IV;
+    src: url("http://constantvzw.org/www/atfont-face/Alfphabet-IV.ttf");
+}
+
+@font-face {
+    font-family: whiskyjazz;
+    src: url("http://constantvzw.org/www/atfont-face/whiskyjazzbeta.ttf");
+}
+
+
+
+body { color: #333333; font-size: 10px; font-family: LMRoman5-Regular, serif; line-height: 17px; background: white;}
+
+* { padding: 0; margin: 0; }
+
+a { color: inherit; text-decoration: none; }
+
+#content_box { padding-bottom: 50px;}
+
+#content_box a { }
+#content_box h3 a, #content_box h1 a { }
+
+a:hover { text-decoration: underline;}
+
+p a { color: #ff2530 }
+	
+a img { border: none; }
+
+small, .wp-caption-text { font-size: 10px !important; }
+	
+blockquote { font-style: italic; color: #666666; margin: 10px 10px 10px 15px; padding: 0 0 0 10px; border-left: 1px solid silver; }
+
+abbr, acronym { border-bottom: 1px dotted #aaa; text-transform: uppercase; cursor: help; }
+	
+code { color: #666666; font-family: Courier, monospace; }
+
+pre { margin: 0 0 1.5em 0; overflow: auto; font-size: 1.3em; clear: both; }
+
+/*---:[ core layout elements ]:---*/
+
+#container { width: 900px; margin: 15px auto 60px auto; }
+					
+#content_box { width: 900px; text-align: left; float: left; clear: both; margin: 20px 15px 30px 0;}
+		
+#right_side, #left_side { width: 440px; float: left; overflow: hidden; }
+
+#left_side { margin: 0 20px 0 0; }
+
+#footer { width: 900px; padding: 5px 0 0 0; margin-bottom: 50px; border-top: 3px solid silver; float: left; clear: both; }
+		
+/*---:[ header styles ]:---*/
+
+h1, h2, h3, h4 {}
+h1, h2 {font-weight: normal; font-family: RCAGill, LMRomanUnsl10-Regular, serif; color: black;}
+
+h1 { text-transform: uppercase; }
+
+#content_box h1 {font-size: 40px; margin: 0 0 5px 0; line-height: 33px; }
+
+.sidebar li h2, .column h2, .r_column h2, .r_sidebar h2, .commentbar h2 { font-family: SansGuilt1, sanserif; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0; padding: 7px 2px; border-top: 2px dotted #ff2530; background: url('images/hr_dot_olive.gif') 0 100% repeat-x; }
+
+.sidebar li li, .r_sidebar li li {border-top: silver 1px dotted; padding: 2px 0 2px 0;}
+
+.sidebar .category h2 { margin: 0 !important; }
+
+h2 {font-size: 15px; text-transform: uppercase;}
+h3 {font-size: 14px;}
+
+.entry h3 {margin-bottom: 10px;}
+
+#masthead {margin-bottom: 10px;}
+#masthead h1 {font-size: 70px; margin: 0; line-height: 90px;}
+#masthead h1 a:hover {text-decoration: none;}
+#masthead h3 {text-transform: uppercase; font-size: 15px; }
+
+#subnav {/*position: absolute; z-index: 60px; top: 85px;*/}
+#nav {/*position: absolute; z-index: 80px; top: 110px;*/}
+
+ul#nav {  background: #ff2530; }
+ul#subnav { background: #BFBEB6; }
+#nav a, #subnav a { font-family: SansGuilt1, sansserif;  font-size: 15px; color: black; }
+
+ul#nav, ul#subnav { list-style: none; width: 880px; padding: 0 10px; float: left; clear: both; }
+
+ul#nav li, ul#subnav li { padding: 5px 15px 5px 0; float: left; /*font-weight: bold;*/ font-size: 14px; }
+			
+ul#nav li a.current, ul#nav li a.current:visited, ul#nav li a.current:hover { color: gray; text-decoration: underline; }
+
+/*---:[ content styles ]:---*/
+
+.entry p { margin: 0 0 10px 0; }
+
+.entry img { margin: 5px 0 5px 0; }
+
+.entry ul, .entry ol { margin: 0 0 10px 20px; }
+		
+.entry li { margin: 0 0 5px 0; }
+
+.entry ul li ul, .entry ul li ol, .entry ol li ul, .entry ol li ol { margin: 5px 0 5px 20px; }
+		
+.meta { color: gray; font-size: 10px !important; line-height: 13px; margin: 3px 0 3px 0; }
+
+.navigation { width: 440px; font-size: 10px; float: left; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid silver;}
+	
+.previous { padding: 0 20px 0 0; float: left; }
+	
+.next { float: right; }
+
+/*---:[ sidebar styles ]:---*/
+
+/*NEEDS TO BE 209px (AND NOT 210px) TO KEEP EXPLORER HAPPY*/
+.sidebar, .r_sidebar { width: 209px; float: left; font-size: 12px; }
+.commentbar { width: 438px; font-size: 12px; float: left;}
+.sidebar { margin: 0 20px 0 0; overflow: hidden; }
+.r_sidebar { margin: 0; }
+
+.sidebar ul, .sidebar li, .r_sidebar ul, .r_sidebar li, .commentbar li { list-style: none; }
+.widget, .linkcat { margin: 0 0 15px 0; }
+.widget img {margin-right: 4px;}
+.widget li, .blogroll li {padding-bottom: 3px;}
+.blogroll {font-size: 10px; color: gray;}
+.blogroll a {font-size: 12px;}
+
+/*---:[ footer styles ]:---*/
+
+#footer p { margin: 0 0 1px 0; color: gray; text-align: right; }
+		
+/*---:[ comment styles ]:---*/
+
+.comments { font-size: 10px; color: gray; }
+
+.comments h3 { margin-bottom: 5px; }
+.comments h2 { color: blue; }
+
+.comments .entry { margin: 10px 0 15px 0; }
+
+.comments label { display: block; margin-top: 10px;}
+
+.comments textarea { width: 350px; margin-bottom: 10px; display: block; }
+
+/*ADDED*/ 
+
+.column, .r_column { width: 210px; float: left; overflow: hidden; }
+.column { margin: 0 20px 0 0; }
+.r_column { margin: 0; }
+
+.float { float: left; padding: 0 10px 5px 0; }
+
+.clear { clear: left; }
+
+.post { margin: 5px 0 15px 0; }
+
+.sidebar .post { margin-top: 10px; }
+
+.entry { font-size: 12px;  }
+
+.wide_post .entry { padding: 10px 15px 0 0; margin: 20px 0 15px 0; }
+
+.wide_post .post { border-bottom: #ff2530 2px solid; padding-bottom: 10px;}
+
+.post .entry { margin-top: 5px; }
+
+.recent_date {padding-left: 3px; font-size: 10px;}
+
+.listing { margin-top: 15px;}
+
+.listing ul { margin: 10px 0 10px 20px; font-size: 12px;}
+
+.label { color: gray; }
+
+.description { margin: 10px 0 0 0; }
+
+.thumb { float: left; margin: 0 6px 3px 0 !important; border: 1px silver solid; }
+
+.campaign img { width: 209px; }
+
+.more {padding: 7px 2px; margin-bottom: 10px; border-top: 1px solid silver; font-size: 12px;}
+
+.star {color: blue;}
+.star img {margin: 0; padding: 0; height: 6%;}
+
+.widget_rss img {display: none;}
+.widget_rss h2 {font-size: 18px; text-transform: none; padding: 0; margin: 0 !important; border-top: none;}
+
+.widget_rss ul, .widget_rss li li {margin: 0;}
+
+#feed .widget {padding: 0 !important; margin: 0 0 10px 0 !important;}
+#feed {margin-bottom: 15px; bottom: 15px;}
+
+.Femke {color: green}
+.Lauren {color: red}
+
+.y {color: blue}
+.n {color: red}
+
+.internal_tag {color: #333333;}
+.entry .wp-smiley {line-height: 0; margin: 0; padding: 0; vertical-align: text-bottom;}
+
+.widget small {line-height: 10px;}
+.widget form {margin-bottom: 5px;}
+
+#polls-2 ul {margin: 0; padding: 0;}
+
+.srssfetcher {font-size: 12px; line-height: 15px; font-family: LMMonoLtCond10-Regular;}
+.srssfetcher li {display: block; padding: 3px 0 3px 0; border-top: silver 1px dotted;}
+.srssfetcher abbr {border-bottom: 0; color: gray;}
+
+.float_random {float: left; margin: 0; padding: 0;}
+
+.LT_powered a {margin: 0 0 0 5px; padding: 0; vertical-align: top !important; font-size: 7px !important; font-family: mono}
+.LT_powered {margin-top: 30px; visibility: hidden;}

@@ -1,0 +1,134 @@
+body { background: #f2f2f2; font-family: mono; margin: 0px; font-size: 14px; line-height: 17px; }
+
+select, input, button { display: block; margin-top: 3px; }
+select { width: 160px; }
+
+.header {background: white; width: 100%; margin-bottom: 20px; padding: 20px 0 5px 25px;}
+
+h1 { font-family: mono; text-transform: uppercase; letter-spacing: 6px; font-size: 20px; }
+h1 a:hover {border: none !important; color: black;}
+h1, h2, h3, h4 {margin-top: 0px; margin-bottom: 0.5em}
+h2 {line-height: 1.3em;}
+
+.stack { width: 160px; height: 160px; /*180px;*/ float: left; margin-bottom: 20px; font-family: sans-serif; font-size: 8px; line-height: 11px !important; color: grey; }
+/*.language, .publications, .author { border-bottom: 1px solid gray; }*/
+.info { margin-bottom: 20px; font-size: 11px; }
+.info ul, .info li { padding: 0; margin: 0; list-style: none; }
+.articles li { padding: 0; margin: 0 0 1em 0;}
+.articles ul {list-style: none; padding: 0; margin: 30px 0 0 0;}
+
+.page { background: white; border-color: silver gray gray silver; border-width: 1px; border-style: solid; font-family: times, georgia, serif; float: left; width: 550px; margin: 10px 30px 100px 25px; padding: 30px 40px 50px 35px; }
+.list { margin: 0 0 25px 25px; width: 1086px; /*height: 200px*/ }
+
+.stack a { color: gray; }
+
+.stack strong { display: block; padding-bottom: 5px; border-bottom: gray 1px solid; margin-bottom: 4px;}
+
+.clear { clear: left; visibility: hidden; line-height: 0; }
+
+a {text-decoration: none; color: #3366ff;}
+a:hover { border-bottom: 1px solid #3366ff; }
+
+.nav { font-weight: bold; margin: 0 0 0 25px; }
+
+.nav a, .nav strong { padding: 0 3px; }
+
+.organise { width: 163px; float: left; margin-bottom: 20px; margin-top: 10px; font-size: 11px; }
+.search { width: 250px; float: left; margin-bottom: 20px; padding: 0; margin: 0; margin-top: 10px;}
+.search input {float: left; margin-right: 3px;}
+.result { font-family: mono; font-size: 11px; line-height: 16px;}
+
+
+.sidebar {width: 306px; float: left; margin-top: 10px;}
+
+.sticker, .groupsticker, .grouplabel, .searchlabel {color: black; padding: 4px 4px 4px 7px; font-family: mono; font-size: 10px; text-transform: uppercase; line-height: 12px; position: absolute; z-index: 100; letter-spacing: 3px;  }
+.sticker { background: yellow; max-width: 125px; margin: 75px 25px; }
+.groupsticker { background: #3366ff; font-weight: bold; max-width: 125px; margin: 75px 25px; color: white; }
+.grouplabel {  background: #3366ff; font-weight: bold; color: white;  display: relative; }
+.searchlabel { background: /*#00ff99*/#3366ff; position: relative; color: white; font-weight: bold; display: inline;}
+.searchlabel .label {color: black; font-weight: normal; font-family: mono; }
+
+.block {margin: 0;}
+
+.label { color: gray; }
+
+.file { position: absolute; text-align: center; overflow: hidden; padding: 7px; background: #ffd9ff; width: 100px; height: 70px; border-color: silver gray gray silver; border-width: 1px; border-style: solid; margin-bottom: 25px; }
+.text { position: absolute; text-align: center; overflow: hidden; padding: 7px; background: #e5e5ff; width: 90px; height: 127px; border-color: silver gray gray silver; border-width: 1px; border-style: solid; margin-bottom: 25px;}
+.publication { width: 100px; position: absolute; text-align: left; overflow: hidden; margin: 10px 0 25px 0;}
+.publication strong, .publication .author { background: gray; color: white; padding: 5px; margin-top: 5px; display: none; border: none; }
+.publication img { display: block; border: none; border-color: gray black black gray; border-width: 1px; border-style: solid;}
+
+a.text:hover {/*background: white !important;*/ z-index: 500 !important; color: black; border-color: gray black black gray;}
+a.file:hover {/*background: white !important;*/ z-index: 500 !important; color: black; border-color: gray black black gray; }
+a.publication:hover {z-index: 500 !important; color: black; border: none; }
+a.publication:hover img {border: 1px solid black;}
+a.publication:hover strong {display: block;}
+
+.chapeau {background: #ffffcc; font-family: mono; font-size: 11px; margin: 20px 0 10px 0; line-height: 16px; padding: 2px 15px; }
+
+.logo img {border-color: silver gray gray silver; border-width: 1px; border-style: solid; margin: 0 0 10px 0;}
+
+#rvs { width: 300px; background: pink; position: absolute; z-index: 1500; top: 50px; left: 50px; padding: 25px; font-size: 11px; line-height: 16px; visibility: hidden;}
+
+.rvs_close {margin-bottom: 16px;}
+
+.download { /*background: #f2f2f2;*/ font-family: mono; font-size: 11px; margin: 16px 0; line-height: 16px; padding: 0; }
+
+.texte {}/ 
+
+.column, .r_column { width: 210px; float: left; overflow: hidden; }
+.column { margin: 0 20px 0 0; }
+.r_column { margin: 0; }
+
+.float { float: left; padding: 0 10px 5px 0; }
+
+.clear { clear: left; }
+
+.post { margin: 5px 0 15px 0; }
+
+.sidebar .post { margin-top: 10px; }
+
+.entry { font-size: 12px;  }
+
+.wide_post .entry { padding: 10px 15px 0 0; margin: 20px 0 15px 0; }
+
+.wide_post .post { border-bottom: olive 3px solid; padding-bottom: 10px;}
+
+.post .entry { margin-top: 5px; }
+
+.recent_date {padding-left: 3px; font-size: 10px;}
+
+.listing { margin-top: 15px;}
+
+.listing ul { margin: 10px 0 10px 20px; font-size: 12px;}
+
+.label { color: gray; }
+
+.description { margin: 10px 0 0 0; }
+
+.thumb { float: left; margin: 0 6px 3px 0 !important; border: 1px silver solid; }
+
+.campaign img { width: 209px; }
+
+.more {padding: 7px 2px; margin-bottom: 10px; border-top: 1px solid silver; font-size: 12px;}
+
+.star {color: olive;}
+.star img {margin: 0; padding: 0;}
+
+.widget_rss img {display: none;}
+.widget_rss h2 {font-size: 12px; text-transform: none; padding: 0; margin: 0 !important; border-top: none;}
+
+.widget_rss ul, .widget_rss li li {margin: 0;}
+
+#feed .widget {padding: 0 !important; margin: 0 0 10px 0 !important;}
+#feed {margin-bottom: 15px; bottom: 15px;}
+
+.Femke {color: green}
+.Lauren {color: red}
+
+.internal_tag {color: #333333;}
+.entry .wp-smiley {line-height: 0; margin: 0; padding: 0; vertical-align: text-bottom;}
+
+.srssfetcher {font-size: 10px; line-height: 13px; font-family: mono;}
+.srssfetcher li {display: block; padding: 3px 0 3px 0; border-top: silver 1px dotted;}
+.srssfetcher abbr {border-bottom: 0; color: gray;}
