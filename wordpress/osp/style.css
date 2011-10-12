@@ -142,7 +142,7 @@ h1 {
   text-transform: uppercase;
   margin: 0 0 5px 0;
   padding: 7px 2px;
-  border-top: 2px dotted #ff5034;
+  border-top: 2px dotted #ffff42;
   background: url("images/hr_dot_olive.gif") 0 100% repeat-x; }
 
 .sidebar li li, .r_sidebar li li {
@@ -184,7 +184,7 @@ h3 {
   /*position: absolute; z-index: 80px; top: 110px;*/ }
 
 ul#nav {
-  background: #ff5034; }
+  background: #ffff42; }
 
 ul#subnav {
   background: #BFBEB6; }

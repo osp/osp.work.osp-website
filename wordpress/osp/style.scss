@@ -8,6 +8,7 @@ Author URI:		http://ospublish.constantvzw.org
 */
 
 $accent: #ff5034 !default;
+$counter-accent: #ffff42 !default;
 
 @font-face {
     font-family: LMMonoLtCond10-Regular;
@@ -103,7 +104,7 @@ h1 { text-transform: uppercase; }
 
 #content_box h1 {font-size: 40px; margin: 0 0 5px 0; line-height: 33px; }
 
-.sidebar li h2, .column h2, .r_column h2, .r_sidebar h2, .commentbar h2 { font-family: SansGuilt1, sanserif; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0; padding: 7px 2px; border-top: 2px dotted $accent; background: url('images/hr_dot_olive.gif') 0 100% repeat-x; }
+.sidebar li h2, .column h2, .r_column h2, .r_sidebar h2, .commentbar h2 { font-family: SansGuilt1, sanserif; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0; padding: 7px 2px; border-top: 2px dotted $counter-accent; background: url('images/hr_dot_olive.gif') 0 100% repeat-x; }
 
 .sidebar li li, .r_sidebar li li {border-top: silver 1px dotted; padding: 2px 0 2px 0;}
 
@@ -122,7 +123,7 @@ h3 {font-size: 14px;}
 #subnav {/*position: absolute; z-index: 60px; top: 85px;*/}
 #nav {/*position: absolute; z-index: 80px; top: 110px;*/}
 
-ul#nav {  background: $accent; }
+ul#nav {  background: $counter-accent; }
 ul#subnav { background: #BFBEB6; }
 #nav a, #subnav a { font-family: SansGuilt1, sansserif;  font-size: 15px; color: black; }
 
