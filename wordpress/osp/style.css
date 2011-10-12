@@ -64,7 +64,7 @@ a:hover {
   text-decoration: underline; }
 
 p a {
-  color: #ff2530; }
+  color: #ff5034; }
 
 a img {
   border: none; }
@@ -142,7 +142,7 @@ h1 {
   text-transform: uppercase;
   margin: 0 0 5px 0;
   padding: 7px 2px;
-  border-top: 2px dotted #ff2530;
+  border-top: 2px dotted #ff5034;
   background: url("images/hr_dot_olive.gif") 0 100% repeat-x; }
 
 .sidebar li li, .r_sidebar li li {
@@ -184,7 +184,7 @@ h3 {
   /*position: absolute; z-index: 80px; top: 110px;*/ }
 
 ul#nav {
-  background: #ff2530; }
+  background: #ff5034; }
 
 ul#subnav {
   background: #BFBEB6; }
@@ -348,7 +348,7 @@ ul#nav li a.current, ul#nav li a.current:visited, ul#nav li a.current:hover {
   margin: 20px 0 15px 0; }
 
 .wide_post .post {
-  border-bottom: #ff2530 2px solid;
+  border-bottom: #ff5034 2px solid;
   padding-bottom: 10px; }
 
 .post .entry {
