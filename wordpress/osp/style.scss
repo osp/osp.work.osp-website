@@ -9,6 +9,7 @@ Author URI:		http://ospublish.constantvzw.org
 
 $accent: #ff5034 !default;
 $counter-accent: #ffff42 !default;
+$body-color: #333333 !default;
 
 @font-face {
     font-family: LMMonoLtCond10-Regular;
@@ -56,7 +57,7 @@ $counter-accent: #ffff42 !default;
 
 
 
-body { color: #333333; font-size: 10px; font-family: Limousine, serif; line-height: 17px; background: white;}
+body { color: $body-color; font-size: 10px; font-family: Limousine, serif; line-height: 17px; background: white;}
 
 * { padding: 0; margin: 0; }
 
@@ -123,15 +124,22 @@ h3 {font-size: 14px;}
 #subnav {/*position: absolute; z-index: 60px; top: 85px;*/}
 #nav {/*position: absolute; z-index: 80px; top: 110px;*/}
 
-ul#nav {  background: $counter-accent; }
-ul#subnav { background: #BFBEB6; }
+ul#nav {  }
+ul#subnav {  }
 #nav a, #subnav a { font-family: SansGuilt1, sansserif;  font-size: 15px; color: black; }
 
 ul#nav, ul#subnav { list-style: none; width: 880px; padding: 0 10px; float: left; clear: both; }
 
-ul#nav li, ul#subnav li { padding: 5px 15px 5px 0; float: left; /*font-weight: bold;*/ font-size: 14px; }
+ul#nav li, ul#subnav li { margin: 3px 12px 3px 0; padding: 2px; float: left;  font-size: 14px; }
+
+ul#subnav li {
+  border-radius: 10px;
+  background-color: $counter-accent;
+}
+
+ul
 			
-ul#nav li a.current, ul#nav li a.current:visited, ul#nav li a.current:hover { color: gray; text-decoration: underline; }
+ul#subnav li a.current, ul#subnav li a.current:visited, ul#subnav li a.current:hover { color: gray; text-decoration: underline; }
 
 /*---:[ content styles ]:---*/
 
@@ -240,7 +248,7 @@ ul#nav li a.current, ul#nav li a.current:visited, ul#nav li a.current:hover { co
 .y {color: blue}
 .n {color: red}
 
-.internal_tag {color: #333333;}
+.internal_tag {color: $body-color;}
 .entry .wp-smiley {line-height: 0; margin: 0; padding: 0; vertical-align: text-bottom;}
 
 .widget small {line-height: 10px;}

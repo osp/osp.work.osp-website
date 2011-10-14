@@ -183,12 +183,6 @@ h3 {
 #nav {
   /*position: absolute; z-index: 80px; top: 110px;*/ }
 
-ul#nav {
-  background: #ffff42; }
-
-ul#subnav {
-  background: #BFBEB6; }
-
 #nav a, #subnav a {
   font-family: SansGuilt1, sansserif;
   font-size: 15px;
@@ -202,12 +196,17 @@ ul#nav, ul#subnav {
   clear: both; }
 
 ul#nav li, ul#subnav li {
-  padding: 5px 15px 5px 0;
+  margin: 3px 12px 3px 0;
+  padding: 2px;
   float: left;
-  /*font-weight: bold;*/
   font-size: 14px; }
 
-ul#nav li a.current, ul#nav li a.current:visited, ul#nav li a.current:hover {
+ul#subnav li {
+  border-radius: 10px;
+  background-color: #ffff42; }
+
+ul
+ul#subnav li a.current, ul#subnav li a.current:visited, ul#subnav li a.current:hover {
   color: gray;
   text-decoration: underline; }
 
