@@ -15,6 +15,9 @@
 
 	<link rel="icon" type="image/gif" href="http://ospublish.constantvzw.org/wp-content/uploads/frog.gif">
 
+  <script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/js/ospublish.js"></script>
+
 	<?php wp_head(); ?>
 
 </head>
