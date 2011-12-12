@@ -16,6 +16,15 @@
                                                          <p class="meta"><?php the_category(' &middot; '); ?> &middot; <?php the_time('F jS, Y') ?> &middot;  <?php  coauthors_posts_links(); ?>  &middot; <?php comments_number(); ?></p>
                                                                  <div class="entry">
                                                                 <?php the_content('[Read more &rarr;]'); ?>
+
+<?php
+$git = get_post_meta(get_the_ID(), 'git', true);
+
+if ($git) {
+  echo "<pre>git clone git://git.constantvzw.org/$git</pre>\n";
+  echo "<p><a href=\"http://git.constantvzw.org/?p=$git.git;a=snapshot;h=HEAD;sf=tgz\">Download snapshot</a></p>\n";
+}
+?>
                                                                  </div><!--entry-->
                                                                   <p class="meta"><?php the_tags('Tags: ', ' &middot; ', ''); ?><?php edit_post_link('Edit',' &middot; ',''); ?></p>
                                                 </div>

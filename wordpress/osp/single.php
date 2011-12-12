@@ -13,6 +13,14 @@
 			<div class="entry">
 				<?php the_content('<p>Read the rest of this entry &raquo;</p>'); ?>
 				<?php link_pages('<p><strong>Pages:</strong> ', '</p>', 'number'); ?>
+				<?php
+$git = get_post_meta(get_the_ID(), 'git', true);
+
+            if ($git) {
+                echo "<pre>git clone git://git.constantvzw.org/$git</pre>\n";
+                echo "<p><a href=\"http://git.constantvzw.org/?p=$git.git;a=snapshot;h=HEAD;sf=tgz\">Download snapshot</a></p>\n";
+            }
+            ?>
 			</div>
 			<p class="meta">Tags: <?php the_tags(' &middot; ') ?><?php edit_post_link('Edit',' &middot; ',''); ?></p>
 		</div>
