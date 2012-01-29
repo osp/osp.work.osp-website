@@ -78,12 +78,9 @@ if ($git) {
                         </p>
           
                  </div><!--left_side-->
-                  <div class="sidebar">
+                  <div id="right_side">
                           <?php include (TEMPLATEPATH . '/sidebar.php'); ?>
                   </div>
-                  <div class="r_sidebar">
-                         <?php include (TEMPLATEPATH . '/i_sidebar.php'); ?>
-                </div>
   </div><!--content_box-->
          
  <?php get_footer(); ?>
