@@ -21,11 +21,11 @@ really_sorted_works = []
 for i in sorted(list(set(sorted_works.keys())), reverse=True):
     really_sorted_works.append({ 'year': i, 'works' : sorted_works[i]})
 
-@app.route("/<slug>")
+@app.route("/<slug>.html")
 def display(slug):
     work = None
     if slug:
-        work = works[slug]
+        work = works[slug + '.git']
     return render_template('index.html', work=work, works=really_sorted_works)
 
 @app.route("/")
