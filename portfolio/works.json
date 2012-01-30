@@ -1,0 +1,577 @@
+{
+  "osp.work.the-ecstacy-of-influence.git": {
+    "date": "2009", 
+    "body": "<h1>The ectasy of influence</h1>\n<h2>Poster</h2>\n<p>Insert to La Selec magazine edited by La Mediatheque</p>\n<p>Design: Harrisson</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/poster---the-ectasy-of-influence/", 
+    "name": "The ectasy of influence", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.the-ecstacy-of-influence.git;a=blob_plain;f=iceberg/posterselecok.png;hb=HEAD", 
+        "name": "posterselecok.png"
+      }
+    ]
+  }, 
+  "osp.work.radio-panik-party.git": {
+    "date": "2009", 
+    "body": "<h1>Radio Panik Party</h1>\n<h2>Poster</h2>\n<p>done in ERG - Ecole de Recherche Graphique. </p>\n<p>800 x 640mm</p>\n<p>Students: Bachelors 1, graphic design course</p>\n<p>Photographers: Anne Sophie, Constant and Soquette</p>\n<p>Teachers: Sun Ok Papy KO and Harrisson</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/09-05-16---poster---radio-panik-party/", 
+    "name": "Radio Panik Party", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.radio-panik-party.git;a=blob_plain;f=iceberg/33posterpanikok.jpg;hb=HEAD", 
+        "name": "33posterpanikok.jpg"
+      }
+    ]
+  }, 
+  "osp.workshop.pcmmd.git": {
+    "date": "2010", 
+    "body": "<h1>please computer | make me design</h1>\n<pre><code>This is part of the please \"computer | make me design\" documentation.\nCopyright 2010, Ivan Monroy Lopez, Stéphanie Vilayphiou, Alexandre Leray\nand Ludivine Loiseau\nSee the file licences/fdl-1.3.txt for copying conditions.\n</code></pre>\n<h2>Project</h2>\n<p>\"please computer | make me design\" was originally the source package for the\n\"Screen Party\" of April 22, 2010 at ESAPV Mons, proposed by Open Source\nPublishing. \"please computer | make me design\" is an introduction to the\ncommand line through graphic design, writing and concrete poetry.  This package\ngathers reference texts, tutorials and a collection of scripts. It was created\nto facilitate collaboration, but also to be increased later on, for example\nthrough other workshops.</p>\n<h2>Getting Started</h2>\n<ul>\n<li>Place this folder in your working folder</li>\n<li>Open a Terminal window<ul>\n<li>On MacOS:</li>\n<li>Go to Applications/Utilities/Terminal</li>\n<li>On Ubuntu:</li>\n<li>Go to Applications/Accessories/Terminal</li>\n</ul>\n</li>\n<li>Go into your working folder (telling the path to your terminal):\n    $ cd /Volumes/your-hard-drive/.../your-folder/\n    (<code>cd</code> stands for 'change directory')<ul>\n<li><em>TIP</em> The TAB key allows you to auto-complete folder names and file, so\n    you do not need to know the hard disk tree and file names by heart!</li>\n</ul>\n</li>\n<li>Go to the 'scripts' folder in the \"PleaseMakeMeDesign\" package \n    $ cd pleasemakemedesign/scripts</li>\n</ul>\n<h2>Alternative way (Avoid writing the whole path by hand)</h2>\n<ul>\n<li>Place this file in your working folder</li>\n<li>Open a Terminal window<ul>\n<li>On MacOS:</li>\n<li>Go to Applications/Utilities/Terminal</li>\n<li>On Ubuntu:</li>\n<li>Go to Applications/Accessories/Terminal</li>\n</ul>\n</li>\n<li>Type <code>cd</code> (space is important !)</li>\n<li>Find the package folder in the Finder </li>\n<li>Drag and drop this folder in the Terminal</li>\n<li>Press Enter</li>\n</ul>\n<h2>Tips</h2>\n<ul>\n<li><code>../</code> means higher directory in the filesystem hierarchy</li>\n<li>type <code>-h</code> or <code>--help</code> after the name of a program allows to view the help text</li>\n<li>type <code>man program-name</code> to read the manual for this program</li>\n</ul>\n<h2>Experiment</h2>\n<p>You can now test the command lines described in the file\n'references/initiation.html' or 'recipes/dutch_way.html' Do not be afraid of\nlosing files or launch a dangerous command. Besides the orders <code>rm</code> and <code>&gt;</code>,\nnothing changes your files.  <code>rm</code> deletes a file (use with caution because the\nfile is deleted directly without going through the trash !).  The command <code>&gt;</code>\nsaves the output in a file.</p>\n<ul>\n<li>To call a file located in a subfolder, type :\n    $ my-directory/my-file.txt</li>\n<li>To call a file in a folder above, type :\n    $ ../my-file.txt</li>\n</ul>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/pc--mmd/", 
+    "name": "PC | MMD", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.pcmmd.git;a=blob_plain;f=iceberg/Adrien_zzzZZzzZz.png;hb=HEAD", 
+        "name": "Adrien_zzzZZzzZz.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.pcmmd.git;a=blob_plain;f=iceberg/felix_out.png;hb=HEAD", 
+        "name": "felix_out.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.pcmmd.git;a=blob_plain;f=iceberg/frederik_command.png;hb=HEAD", 
+        "name": "frederik_command.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.pcmmd.git;a=blob_plain;f=iceberg/frederik_out.png;hb=HEAD", 
+        "name": "frederik_out.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.pcmmd.git;a=blob_plain;f=iceberg/julien_out.jpg;hb=HEAD", 
+        "name": "julien_out.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.pcmmd.git;a=blob_plain;f=iceberg/osp_out.jpg;hb=HEAD", 
+        "name": "osp_out.jpg"
+      }
+    ]
+  }, 
+  "osp.workshop.abc.git": {
+    "date": "2010", 
+    "body": "<h1>abc</h1>\n<h2>Workshop</h2>\n<p>One way to dissect the shapes of the latin alphabet, and use this theorical\nmodel to make a typeface together in a fast paced design game. The game\ninvolve drawing letters on paper, making use of a real life version control\nsystem, and uploading the results to the Open Font Library.</p>\n<p>Session 01 by and with Dave Crossland (type designer), Sebastien Sanfilippo\n(type designer), Ludivine Loiseau (graphic designer) and Pierre Marchand (font\ndeveloper).</p>\n<p>Libre Graphics Meetings 2010 - Saturday 29 May</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/abc-workshop/", 
+    "name": "abc", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/29052010013.jpg;hb=HEAD", 
+        "name": "29052010013.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/29052010014.jpg;hb=HEAD", 
+        "name": "29052010014.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/29052010015.jpg;hb=HEAD", 
+        "name": "29052010015.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/29052010016.jpg;hb=HEAD", 
+        "name": "29052010016.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/29052010017.jpg;hb=HEAD", 
+        "name": "29052010017.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/29052010018.jpg;hb=HEAD", 
+        "name": "29052010018.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/abcworkshop.jpg;hb=HEAD", 
+        "name": "abcworkshop.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/img1088.jpg;hb=HEAD", 
+        "name": "img1088.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/img1090.jpg;hb=HEAD", 
+        "name": "img1090.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/img1112.jpg;hb=HEAD", 
+        "name": "img1112.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/no001.jpg;hb=HEAD", 
+        "name": "no001.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.workshop.abc.git;a=blob_plain;f=iceberg/shoplift001.jpg;hb=HEAD", 
+        "name": "shoplift001.jpg"
+      }
+    ]
+  }, 
+  "osp.millle.LABtoLAB.git": {
+    "name": "LABtoLAB",
+    "body": "<h1>LABtoLAB</h1>\n<h2>Media lab</h2>\n<p>http://www.labtolab.org\nlogo design and wiki theme\nOSP - Millle, 2011</p>", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.millle.LABtoLAB.git;a=blob_plain;f=iceberg/Screenshot-7.png;hb=HEAD", 
+        "name": "Screenshot-7.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.millle.LABtoLAB.git;a=blob_plain;f=iceberg/Screenshot-8.png;hb=HEAD", 
+        "name": "Screenshot-8.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.millle.LABtoLAB.git;a=blob_plain;f=iceberg/labtolab_logo.png;hb=HEAD", 
+        "name": "labtolab_logo.png"
+      }
+    ], 
+    "date": "2011"
+  }, 
+  "osp.work.tracks-in-electronic-fields-vj10.git": {
+    "date": "2009", 
+    "body": "<h1>Tracks in electr(on)ic fields-VJ10</h1>\n<h2>Book</h2>\n<p>Publication containing texts and images from <strong>Verbindingen/Jonctions 10:\nTracks in electr(on)ic fields</strong>, organised by Constant in 2007. Designed by\nPierre Huyghebaert and Femke Snelting with ConTeXt (+ Gimp, Inkscape and\nScribus for the cover). Photos by Ilan Weiss (thanks!).</p>\n<p>Laureate <a href=\"http://www.prixfernandbaudinprijs.be/Public/Book.php?ID=3413\">Prix Fernand\nBaudin</a></p>\n<p>Related blog entries :</p>\n<ul>\n<li>Episode 1: <a href=\"http://ospublish.constantvzw.org/works/designing-with-latex\">Designing with LaTeX</a></li>\n<li>Episode 2: <a href=\"http://ospublish.constantvzw.org/tools/lions-and-tulips\">Lions and Tulips</a></li>\n<li>Intermezzo: <a href=\"http://ospublish.constantvzw.org/tools/entretemps-ondertussen-meanwhile\">Entretemps-Ondertussen-Meanwhile</a></li>\n<li>Episode 3: <a href=\"http://ospublish.constantvzw.org/tools/pelgrimage-to-pragma\">Pelgrimage to Pragma</a></li>\n<li>Making of: <a href=\"http://ospublish.constantvzw.org/wp-content/uploads/makingof.pdf\">Extract from the book (pdf)</a></li>\n<li>Released: <a href=\"http://ospublish.constantvzw.org/news/osp-wins-fernand-baudin-prize\">OSP wins Fernand Baudin Prize</a></li>\n<li>Postscript: <a href=\"http://ospublish.constantvzw.org/news/3923\">TeX, Fata Morgana et une promesse</a></li>\n</ul>\n<p>(Extracts from the Making of, translated in French)</p>\n<p>Sources: <a href=\"http://ospublish.constantvzw\n.org/sources/vj10\">ospublish.constantvzw.org/sources/vj10</a></p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/book---tracks-in-electronic-fields/", 
+    "name": "Tracks in electr(on)ic fields-VJ10", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cimatics.git;a=blob_plain;f=iceberg/cimatics-logotrash.jpg;hb=HEAD", 
+        "name": "cimatics-logotrash.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cimatics.git;a=blob_plain;f=iceberg/cimatics-poster.jpg;hb=HEAD", 
+        "name": "cimatics-poster.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cimatics.git;a=blob_plain;f=iceberg/cimatics-posters-layout01.jpg;hb=HEAD", 
+        "name": "cimatics-posters-layout01.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cimatics.git;a=blob_plain;f=iceberg/grey-booklet-yes.gif;hb=HEAD", 
+        "name": "grey-booklet-yes.gif"
+      }
+    ]
+  }, 
+  "osp.work.gallait.git": {
+    "name": "Constant Variable",
+    "body": "<h1>Constant Variable</h1>\n<h2>Visual Identity for Free Libre Open Source Software Arts Lab</h2>\n<p>The 19th century town house at Rue Gallait 80 is now known as Constant Variable.\nFor three years, it will house an arts lab for free, libre and open source software.\nNext to the Open Source Publishing studio, there is an open video workshop and\nan open hardware workshop. The top floor houses a residency.</p>\n<p>OSP has created a modular visual identity for Constant Variable.\nUsing stickers with the VARIABLE logo and seperate keyword stickers representing\nFree, Libre, Open Source, Software and arts.</p>\n<p>The launch of Variable has coincided with the release of the Crickx font,\nused in the identity—based upon the letters from a Schaerbeek sign maker’s shop.</p>\n<p>The signage has been created using actual Crickx stock from Publi Fluor,\nthe stock upon which the digital font has been based.</p>", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.gallait.git;a=blob_plain;f=iceberg/site.png;hb=HEAD", 
+        "name": "site.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.gallait.git;a=blob_plain;f=iceberg/variable_door.jpg;hb=HEAD", 
+        "name": "variable_door.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.gallait.git;a=blob_plain;f=iceberg/variable_invitation_cover.png;hb=HEAD", 
+        "name": "variable_invitation_cover.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.gallait.git;a=blob_plain;f=iceberg/variable_sticker.jpg;hb=HEAD", 
+        "name": "variable_sticker.jpg"
+      }
+    ], 
+    "date": "2011"
+  }, 
+  "osp.work.constant-flyer.git": {
+    "date": "2010", 
+    "body": "<h1>A FLYER FOR CONSTANT</h1>\n<p>Constant is an association for art and media, based in Brussels. It is focused on free software philosophy through different groups and activities: Open Source Video, Open Source Publishing, Active Archives… It organizes every year the multi-disciplinary festival “Verbindingen/Jonctions” which conferences are translated simultaneously in 3 languages: English, Dutch and French.</p>\n<p>For this flyer, Constant wanted to write its postal address mixing the three languages (or at least French/Dutch) because language is always such an important matter in Belgium… There were supposed to be 2 different flyers: one French/English, one Dutch/English. </p>\n<p>Since language is so important in Belgium but also in Constant's preoccupations, we focused on this particular aspect to design the flyer. Instead of making 2 different flyers for different languages, we put all languages on the same flyer: they follow each other in an infinite loop. There are still 4 different flyers in order to have each language uncut (English appears twice actually). </p>\n<p>The shapes in the background are from the font Constant made for its website. It is composed of shapes and drawings from different former projects. </p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/constant-flyer/", 
+    "name": "Constant flyer", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-flyer.git;a=blob_plain;f=iceberg/DSC_4491_small.jpg;hb=HEAD", 
+        "name": "DSC_4491_small.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-flyer.git;a=blob_plain;f=iceberg/DSC_4493_small.jpg;hb=HEAD", 
+        "name": "DSC_4493_small.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-flyer.git;a=blob_plain;f=iceberg/DSC_4496_small.jpg;hb=HEAD", 
+        "name": "DSC_4496_small.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-flyer.git;a=blob_plain;f=iceberg/DSC_4506_small.jpg;hb=HEAD", 
+        "name": "DSC_4506_small.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-flyer.git;a=blob_plain;f=iceberg/DSC_4514_small.jpg;hb=HEAD", 
+        "name": "DSC_4514_small.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-flyer.git;a=blob_plain;f=iceberg/DSC_4518_small.jpg;hb=HEAD", 
+        "name": "DSC_4518_small.jpg"
+      }
+    ]
+  }, 
+  "osp.work.vecteur.git": {
+    "date": "2009", 
+    "body": "<h1>Vecteur</h1>\n<h2>Logo</h2>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/09-01-10---logo---vecteur/", 
+    "name": "Vecteur", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vecteur.git;a=blob_plain;f=iceberg/vecteur1.png;hb=HEAD", 
+        "name": "vecteur1.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vecteur.git;a=blob_plain;f=iceberg/vecteur2.png;hb=HEAD", 
+        "name": "vecteur2.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vecteur.git;a=blob_plain;f=iceberg/vecteur3.png;hb=HEAD", 
+        "name": "vecteur3.png"
+      }
+    ]
+  }, 
+  "osp.work.j-az.git": {
+    "date": "2009", 
+    "body": "<h1>J/AZ</h1>\n<h2>Logo</h2>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/09-03-22---logo---jaz/", 
+    "name": "J/AZ", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.j-az.git;a=blob_plain;f=iceberg/logojiazseulsvg-inkscape.png;hb=HEAD", 
+        "name": "logojiazseulsvg-inkscape.png"
+      }
+    ]
+  }, 
+  "osp.work.circular-facts.git": {
+    "date": "2011", 
+    "body": "<h1>Circular Facts</h1>\n<h2>Web development</h2>\n<p>We wrote the PHP for the website of the Circular Facts project. It's a custom\nWordPress template with a gorgeous Unicode index page.</p>\n<p><a href=\"http://www.circularfacts.eu\">www.circularfacts.eu</a></p>\n<p>_Circular Facts is an informal think-tank and a mutual support structure that\nworks as a hub for the production and dissemination of artistic projects. The\nemphasis of the collaboration is on finding non-bureaucratic ways of working\ntogether, the sharing of imaginative thinking, and open-ended forms of\ncirculation. _</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/circular-facts/", 
+    "name": "Circular Facts", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.circular-facts.git;a=blob_plain;f=iceberg/cf1.png;hb=HEAD", 
+        "name": "cf1.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.circular-facts.git;a=blob_plain;f=iceberg/cf2.png;hb=HEAD", 
+        "name": "cf2.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.circular-facts.git;a=blob_plain;f=iceberg/cf3.png;hb=HEAD", 
+        "name": "cf3.png"
+      }
+    ]
+  }, 
+  "osp.work.constant-housestyle.git": {
+    "date": "2009", 
+    "body": "<h1>Constant housestyle</h1>\n<h2>Visual identity</h2>\n<p>Constant: Association for Art and Media, Brussels</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/constant-housestyle/", 
+    "name": "Constant housestyle", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050228.jpg;hb=HEAD", 
+        "name": "p1050228.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050230.jpg;hb=HEAD", 
+        "name": "p1050230.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050233.jpg;hb=HEAD", 
+        "name": "p1050233.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050237.jpg;hb=HEAD", 
+        "name": "p1050237.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050238.jpg;hb=HEAD", 
+        "name": "p1050238.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050242.jpg;hb=HEAD", 
+        "name": "p1050242.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050243.jpg;hb=HEAD", 
+        "name": "p1050243.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050245.jpg;hb=HEAD", 
+        "name": "p1050245.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.constant-housestyle.git;a=blob_plain;f=iceberg/p1050248.jpg;hb=HEAD", 
+        "name": "p1050248.jpg"
+      }
+    ]
+  }, 
+  "osp.work.cinema-du-reel.git": {
+    "date": "2009", 
+    "body": "<h1>Cinéma du réel</h1>\n<h2>Poster, program, installation</h2>\n<p>A cartography of the selection of the documentary film festival Cinéma du Réel, \nexecuted as poster/program and as a full scale map installation on the floors of\nthe Centre Pompidou where the festival takes place.</p>\n<p>Commisioned by BPI, Bibliothèque Publique d'information de Paris</p>\n<p>Design: Harrison – Ludi</p>\n<p><a href=\"http://ospublish.constantvzw.org/works/osp-bpi-cinema-du-reel\">http://ospublish.constantvzw.org/works/osp-bpi-cinema-du-reel</a></p>\n<p><a href=\"http://ospublish.constantvzw.org/news/osp-full-scale-in-beaubourg\">http://ospublish.constantvzw.org/news/osp-full-scale-in-beaubourg</a></p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/cinema-du-reel-/", 
+    "name": "Cinéma du réel", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cinema-du-reel.git;a=blob_plain;f=iceberg/40021.png;hb=HEAD", 
+        "name": "40021.png"
+      }
+    ]
+  }, 
+  "osp.work.puerto-cookbook.git": {
+    "date": "2009", 
+    "body": "<h1>Puerto Cookbook</h1>\n<h2>Book</h2>\n<p>Cookbook designed for Puerto</p>\n<p>Design: Femke</p>\n<p>Illustrations: Yi and Puerto people</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/09-06-22---book---cuerto/", 
+    "name": "Puerto Cookbook", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.puerto-cookbook.git;a=blob_plain;f=iceberg/puerto.jpg;hb=HEAD", 
+        "name": "puerto.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.puerto-cookbook.git;a=blob_plain;f=iceberg/puerto2.jpg;hb=HEAD", 
+        "name": "puerto2.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.puerto-cookbook.git;a=blob_plain;f=iceberg/puerto3.jpg;hb=HEAD", 
+        "name": "puerto3.jpg"
+      }
+    ]
+  }, 
+  "osp.work.vernon.git": {
+    "date": "2010", 
+    "body": "<h1>Vernon</h1>\n<h2>Record</h2>\n<p>Design: Harrisson</p>\n<p>Inkscape</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/vernon--burns/", 
+    "name": "Vernon", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vernon.git;a=blob_plain;f=iceberg/sleeveok01.jpg;hb=HEAD", 
+        "name": "sleeveok01.jpg"
+      }
+    ]
+  }, 
+  "osp.work.gender-art-net.git": {
+    "date": "2009", 
+    "body": "<h1>Gender Art Net</h1>\n<h2>Website</h2>\n<p>GenderArtNet is an experimental mapping project, contextualizing and\nconnecting artists, artistic practices, projects and organisations, which\nexplore the interrelation of gender, ethnicity, race, class and sexualities in\nthe broader Europe.</p>\n<p>Concept and development: Bettina Knaup with Maria Ptqk and Constant vzw</p>\n<p>Programming: Nicolas Malevé</p>\n<p>Design: Ludi</p>\n<p><a href=\"http://genderartnet.constantvzw.be/emerge/\">Visite the map &gt;</a></p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/gender-art-net/", 
+    "name": "Gender Art Net", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.gender-art-net.git;a=blob_plain;f=iceberg/gan-01.png;hb=HEAD", 
+        "name": "gan-01.png"
+      }
+    ]
+  }, 
+  "osp.work.acsr.git": {
+    "name": "Atelier de Création Sonore Radiophonique",
+    "body": "<h1>acsr</h1>\n<p>Atelier de Création Sonore Radiophonique sound repository.</p>\n<p><a href=\"http://www.acsr.be\">http://www.acsr.be</a>\nVisual identity and WordPress design\nStéphanie Vilayphiou, Ludi and Jérôme Degive from Pica Pica, 2011</p>", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.acsr.git;a=blob_plain;f=iceberg/acsr-preview01.png;hb=HEAD", 
+        "name": "acsr-preview01.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.acsr.git;a=blob_plain;f=iceberg/acsr-preview02.png;hb=HEAD", 
+        "name": "acsr-preview02.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.acsr.git;a=blob_plain;f=iceberg/poster-fiction.jpg;hb=HEAD", 
+        "name": "poster-fiction.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.acsr.git;a=blob_plain;f=iceberg/semaine-son_1.jpg;hb=HEAD", 
+        "name": "semaine-son_1.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.acsr.git;a=blob_plain;f=iceberg/semaine-son_2.jpg;hb=HEAD", 
+        "name": "semaine-son_2.jpg"
+      }
+    ], 
+    "date": "2011"
+  }, 
+  "osp.work.panik.git": {
+    "name": "Radio Panik",
+    "body": "<h1>Radio Panik</h1>\n<p>OSP has designed the 2012 program for Brussels based alternative radio station, Radio Panik.\nThe program (‘the grille’) is constructed through what is considered a type crime—\nhorizontally squashing the text to make it fit. We debuted our new typeface Reglo for this job.</p>\n<p>Next to the design of the program, we constructed a web interface that provides a means\nfor the employees of Radio Panik to generate cd covers and posters in the same style.</p>\n<p>The web interface allows one to browse and choose from the various image categories of Wikimedia Commons,\ninput a text and choose a paper size, after which it will generate a design in a vector file format.\nThe output is an SVG file which can be further edited in proprietary and libre image editors.</p>", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.panik.git;a=blob_plain;f=iceberg/grille.jpg;hb=HEAD", 
+        "name": "grille.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.panik.git;a=blob_plain;f=iceberg/grille_with_cover.jpg;hb=HEAD", 
+        "name": "grille_with_cover.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.panik.git;a=blob_plain;f=iceberg/interface_choose_options.png;hb=HEAD", 
+        "name": "interface_choose_options.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.panik.git;a=blob_plain;f=iceberg/interface_example_output.png;hb=HEAD", 
+        "name": "interface_example_output.png"
+      }
+    ], 
+    "date": "2012"
+  }, 
+  "osp.work.paralellipedia.git": {
+    "date": "2010", 
+    "body": "<h1>Parallellepipeda</h1>\n<h2>Visual Identity</h2>\n<p>P A R A L L E L L E P I P E D A</p>\n<p>Tussen kunst en wetenschap</p>\n<p>exhibition in M, Leuven</p>\n<p>28.01&gt;25.04 - 2010</p>\n<p>Design : Harrisson - Ludi</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/identity---parallellepipeda/", 
+    "name": "Parallellepipeda", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.paralellipedia.git;a=blob_plain;f=iceberg/prllppd01.jpg;hb=HEAD", 
+        "name": "prllppd01.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.paralellipedia.git;a=blob_plain;f=iceberg/prllppdflyer-recto.png;hb=HEAD", 
+        "name": "prllppdflyer-recto.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.paralellipedia.git;a=blob_plain;f=iceberg/prllppdflyer-verso.png;hb=HEAD", 
+        "name": "prllppdflyer-verso.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.paralellipedia.git;a=blob_plain;f=iceberg/prllppdposter.png;hb=HEAD", 
+        "name": "prllppdposter.png"
+      }
+    ]
+  }, 
+  "osp.work.prix-fernand-baudin-2008.git": {
+    "date": "2009", 
+    "body": "<h1>Prix Fernand Baudin 2008</h1>\n<h2>Logo</h2>\n<p>for The Fernand Baudin Prize 2008</p>\n<p>Design: Harrisson</p>\n<p>Font: Gentium</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/09-01-10---logo---prix-baudin/", 
+    "name": "Prix Fernand Baudin 2008", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.prix-fernand-baudin-2008.git;a=blob_plain;f=iceberg/pfb.png;hb=HEAD", 
+        "name": "pfb.png"
+      }
+    ]
+  }, 
+  "osp.work.palais-chalet-maastricht.git": {
+    "date": "2009", 
+    "body": "<h1>Palais Chalet Maastricht</h1>\n<h2>Flyer</h2>\n<p>Drawing ATKA, colors by Coeurvert, calligraphy by Harrisson</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/09-05-18---flyer---palais-chalet-maastricht/", 
+    "name": "Palais Chalet Maastricht", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.palais-chalet-maastricht.git;a=blob_plain;f=iceberg/taupeweb.png;hb=HEAD", 
+        "name": "taupeweb.png"
+      }
+    ]
+  }, 
+  "balsamine.git": {
+    "name": "Théatre Balsamine",
+    "body": "<h1>Visual identity for the Balsamine theatre.</h1>\n<h2>website, programmes, posters, fanzine and more</h2>\n<p>Changer de direction, c'est souvent changer sa ligne graphique. Changer de peau en soi, faire remarquer sa nouvelle présence, forger son image, se faire une réputation. Mais est-ce aussi simple que cela, est-ce que cela tient uniquement à cette façade de sa propre reconnaissance ? Ce qui est certain, c'est que, comme chaque relation que nous voulions entamer, l'idée du dialogue et du processus devait exister. Voilà pourquoi, il était important de rencontrer des personnalités philosophiquement engagées dans ces deux propositions. Instinctivement, nous sommes allés vers Speculoos. Ici nous interrompons le texte, extrait du blog http://osp.constantvzw.org/ :\n« En février Monica et Fabien du Théâtre de la Balsamine sont arrivés chez Speculoos, et deux heures après ils sont repartis, sans même vraiment le savoir, avec en plus OSP et <stdin>. Pierre a senti d'une part qu'une hétérogéneïté de pratiques graphiques serait mieux à même de rendre compte de la tentative d'involution du projet théâtral naissant de la Balsamine, et d'autre part que, pour une fois, OSP pouvait risquer une réponse à une demande sans qu'une complicité préalable n'existe avec le mode expérimental qui lui est inhérent. </p>", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=balsamine.git;a=blob_plain;f=iceberg/Balsamine_wiki.png;hb=HEAD", 
+        "name": "Balsamine_wiki.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=balsamine.git;a=blob_plain;f=iceberg/Marc-de-Meyer_peintre.jpg;hb=HEAD", 
+        "name": "Marc-de-Meyer_peintre.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=balsamine.git;a=blob_plain;f=iceberg/balsa-affiche-genese.jpg;hb=HEAD", 
+        "name": "balsa-affiche-genese.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=balsamine.git;a=blob_plain;f=iceberg/balsa_affiches-saison1.png;hb=HEAD", 
+        "name": "balsa_affiches-saison1.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=balsamine.git;a=blob_plain;f=iceberg/balsa_affiches-saison2.png;hb=HEAD", 
+        "name": "balsa_affiches-saison2.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=balsamine.git;a=blob_plain;f=iceberg/balsa_affiches-saison3.png;hb=HEAD", 
+        "name": "balsa_affiches-saison3.png"
+      }
+    ], 
+    "date": "2011"
+  }, 
+  "osp.work.pierre-normal-tour.git": {
+    "date": "2009", 
+    "body": "<h1>Pierre Normal tour</h1>\n<h2>Poster</h2>\n<p>Poster designed for The Dreams, Pierre Normal and Palais Chalet tour, France, Switzerland and Germany.</p>\n<p>Drawing by ATKA, calligraphy by Harrisson</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/09-06-07---poster---tour-pierre-normal/", 
+    "name": "Pierre Normal tour", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.pierre-normal-tour.git;a=blob_plain;f=iceberg/tourneejuinpti2.jpg;hb=HEAD", 
+        "name": "tourneejuinpti2.jpg"
+      }
+    ]
+  }, 
+  "osp.work.cimatics.git": {
+    "date": "2009", 
+    "body": "<h1>Cimatics</h1>\n<h2>Visual framework</h2>\n<p>Cimatics is a framework for initiating and facilitating audiovisual\nproductions, events, publications and workshops. As part of their identity for\n2009, OSP developed a new family of fonts.<br />\nOne of the questions behind our research was: \"how to represent the diversity\nof images that Cimatics offers to the eye?\"</p>\n<p>One version of the fonts is based on the URW Gothic L, and has been populated\nby dingbats. The result is dusty, noisy, trashy text blocks. Another version\nis a full dingbat font that allows for a pictures/glyphs translation process.</p>\n<p>The CimaticsScaredEye and the CimaticsWhitePentagon have been drawn for the\noccasion, and can be accessed in the Private Use Area of the fonts.</p>\n<p>For the communication of the festival, Cimatics proposed\n<a href=\"http://www.josworld.org\">Josworld</a> to start from this \"raw material\".</p>\n<p>Design and development: Ludi Loiseau, Ivan Monroy Lopez</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/cimatics/", 
+    "name": "Cimatics", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cimatics.git;a=blob_plain;f=iceberg/cimatics-logotrash.jpg;hb=HEAD", 
+        "name": "cimatics-logotrash.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cimatics.git;a=blob_plain;f=iceberg/cimatics-poster.jpg;hb=HEAD", 
+        "name": "cimatics-poster.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cimatics.git;a=blob_plain;f=iceberg/cimatics-posters-layout01.jpg;hb=HEAD", 
+        "name": "cimatics-posters-layout01.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cimatics.git;a=blob_plain;f=iceberg/grey-booklet-yes.gif;hb=HEAD", 
+        "name": "grey-booklet-yes.gif"
+      }
+    ]
+  }, 
+  "osp.work.cross-over.git": {
+    "date": "2008", 
+    "body": "<h1>CROSS-over</h1>\n<h2>Book</h2>\n<p>CROSS-over, Kunst, media en technologie in Vlaanderen.</p>\n<p>Published by BAM / Lannoo and designed by OSP</p>\n<p>This book received a Plantin-Moretus prize 2009 for best designed book in the\ncategory non fiction. The jury about Cross-over: “It was love at first sight“.\nThe book, published by BAM and Lannoo and edited by Liesbeth Huybregts, uses\nLibre Fonts and is produced with Scribus and many other F/LOSS tools</p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/projects/cross-over/", 
+    "name": "CROSS-over", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.cross-over.git;a=blob_plain;f=iceberg/dsc03342.jpg;hb=HEAD", 
+        "name": "dsc03342.jpg"
+      }
+    ]
+  }, 
+  "osp.work.libre-graphics-meeting-2011.git": {
+    "date": "2010", 
+    "body": "<h1>Libre Graphics Meeting 2010</h1>\n<h2>Visual Identity</h2>\n<p>for developer-user meeting: website, flyers, stickers, banners...</p>\n<p><a href=\"http://www.libregraphicsmeeting.org\">http://www.libregraphicsmeeting.org</a></p>", 
+    "old_url": " http://ospublish.constantvzw.org/works/index.php?/project/identity---libre-graphics-meeting-2010/", 
+    "name": "Libre Graphics Meeting 2010", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.libre-graphics-meeting-2011.git;a=blob_plain;f=iceberg/img0869.jpg;hb=HEAD", 
+        "name": "img0869.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.libre-graphics-meeting-2011.git;a=blob_plain;f=iceberg/img1212.jpg;hb=HEAD", 
+        "name": "img1212.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.libre-graphics-meeting-2011.git;a=blob_plain;f=iceberg/img1253.jpg;hb=HEAD", 
+        "name": "img1253.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.libre-graphics-meeting-2011.git;a=blob_plain;f=iceberg/sdc13335.jpg;hb=HEAD", 
+        "name": "sdc13335.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.libre-graphics-meeting-2011.git;a=blob_plain;f=iceberg/stickers-blue.png;hb=HEAD", 
+        "name": "stickers-blue.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.libre-graphics-meeting-2011.git;a=blob_plain;f=iceberg/stickers-green.png;hb=HEAD", 
+        "name": "stickers-green.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.libre-graphics-meeting-2011.git;a=blob_plain;f=iceberg/stickers-yellow.png;hb=HEAD", 
+        "name": "stickers-yellow.png"
+      }
+    ]
+  }
+}

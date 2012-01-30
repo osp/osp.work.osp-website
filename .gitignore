@@ -4,3 +4,6 @@
 
 credentials.txt
 .sass-cache
+
+./portfolio/public/*.html
+

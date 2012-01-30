@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>OSP Works {{ work.name }}</title>
+
+<link rel="stylesheet" href="static/style.css" type="text/css" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="static/ie.css" type="text/css" />
+<![endif]-->
+</head>
+
+<body class="section-<%section_id%>">
+<div id="menu">
+<div class="container">
+<!--http://ospublish.constantvzw.org/works/go-->
+{% for year in works %}
+{{ year.year }}
+<ul>
+{% for w in year.works %}
+<li><a href="{{ w.link }}">{{ w.name }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+
+</div>	
+</div>	
+
+<div id="content">
+<div class="container">
+{{ work.body|safe }}
+
+{% for image in work.images %}
+<p><img src="{{ image.link }}" style="{{ image.width }}px;{{ image.height }}px;" title=></p>
+{% endfor %}
+</div>
+</div>
+
+</body>
+</html>
