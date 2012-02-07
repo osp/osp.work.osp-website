@@ -12,19 +12,23 @@ $(document).ready( function(){
       height = $this.height();
       width = $this.width();
       
-      $this.remove();
       
-      box.css({
-        'background' : 'url(' + url + ') no-repeat center center',
-        'background-size' : '100% auto',
-        '-moz-background-size' : '100% auto',
-        '-webkit-background-size': '100% auto',
-        'height' : '780px',
-        'width'  : '780px',
-        'margin' : '0px',
-        'padding' : '0px'
-      }).show();
-
+      if( height > 780 || width > 780 ) {
+      
+      $this.remove();       
+        box.css({
+          'background' : 'url(' + url + ') no-repeat center center',
+          'background-size' : '100% auto',
+          '-moz-background-size' : '100% auto',
+          '-webkit-background-size': '100% auto',
+          'height' : '780px',
+          'width'  : '780px',
+          'margin' : '0px',
+          'padding' : '0px',
+          'margin' : '30px'
+        }).show();
+        
+      }
     });
   });
 
