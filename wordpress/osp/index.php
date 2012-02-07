@@ -4,9 +4,22 @@
    <!--LATEST POST-->
   
            <div id="left_side">
-          
+            
                   <div class="wide_post"> 
-                  
+                      <h2 class="sitetype">OSP-blog</h2>
+
+
+                      <ul class="blognav">
+                            <?php wp_list_categories('sort_column=name&depth=1&title_li=&exclude=129,32'); ?>
+                            <li class="page_item page-item-83"><a href="http://ospublish.constantvzw.org/archives">Archives</a></li>
+                            <li class="page_item page-item-938"><a href="http://ospublish.constantvzw.org/tags">Tags</a></li>
+                            <li class="page_item page-item-4838"><a href="http://ospublish.constantvzw.org/library">Library</a></li>
+                            <li class="page_item page-item-81"><a href="http://ospublish.constantvzw.org/links">Links</a></li>
+                            <li><a href="/recipes">Recipes</a></li>
+                          </ul>
+                          <div style="clear:both;"></div>
+                          <div style="margin-bottom:20px;"></div>
+                           
                    <?php if (have_posts()) : ?>    
                   <?php query_posts('showposts=3'); ?>
                   <?php while (have_posts()) : the_post(); ?>

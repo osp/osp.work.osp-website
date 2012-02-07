@@ -26,6 +26,7 @@
 <div id="container">
 
 <div id="masthead">
+    <table><tr><td id="mastheadleft">
 
 <?php
 $result_random=rand(1, 7);
@@ -37,12 +38,21 @@ $result_random=rand(1, 7);
 </h1>
 
 	<h2><?php bloginfo('description'); ?></h2>
+</td>
+<td id="mastheadright">
+
+    <ul id="nav">
+      <li class="page_item page-item-2"><a href="http://ospublish.constantvzw.org/about">About</a></li>
+      <li class="page_item page-item-241"><a href="http://ospublish.constantvzw.org/contact">Contact</a></li>
+      <li><a href="/images/">Snapshots</a></li>
+      <li><a href="/portfolio/">Portfolio</a></li>
+      <li><a href="http://git.constantvzw.org/">Project Source Files</a></li>
+      <li><a href="/foundry/">Foundry</a></li>
+    </ul>
+     
+    </td></table>
+
 </div><!--masthead-->
 
 <!--<div id="head_bckgr"><img src="http://ospublish.constantvzw.org/wp-content/themes/osp/images/title.jpg"></a></div>-->
 
-		<ul id="nav"><li><a <?php if (is_home()) echo('class="current" '); ?>href="<?php bloginfo('url'); ?>">Home</a></li><?php wp_list_pages('depth=1&title_li=&exclude=2125,3959'); ?><li><a href="/recipes">Recipes</a></li><li><a href="/images/">Snapshots</a></li><li><a href="/works">Works</a></li><li><a href="http://git.constantvzw.org/">Project Source Files</a></li><li><a href="/foundry">Foundry</a></li></ul>
-
-	<ul id="subnav">
-		<?php wp_list_categories('sort_column=name&depth=1&title_li=&exclude=129,32'); ?>
-	</ul>

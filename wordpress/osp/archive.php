@@ -58,12 +58,9 @@
 
 	</div><!--left_side-->
 
-		<div class="sidebar">
-			<?php include (TEMPLATEPATH . '/sidebar.php'); ?>
-		</div>
-		<div class="r_sidebar">
-			<?php include (TEMPLATEPATH . '/r_sidebar.php'); ?>
-		</div>
+    <div class="sidebar">
+      <?php include (TEMPLATEPATH . '/sidebar.php'); ?>
+    </div>
 </div><!--content_box-->
 
 <?php get_footer(); ?>

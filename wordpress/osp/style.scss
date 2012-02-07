@@ -132,13 +132,19 @@ pre {
   clear: both;
   margin: 20px 15px 30px 0; }
 
-#right_side, #left_side {
+#right_side, #left_side, .sidebar {
   width: 440px;
   float: left;
   overflow: hidden; }
+ 
+#right_side, .sidebar {
+  width: 360px;
+  margin-left: 80px;
+}
 
 #left_side {
   margin: 0 20px 0 0; }
+
 
 #footer {
   width: 900px;
@@ -161,22 +167,6 @@ h1 {
   font-size: 40px;
   margin: 0 0 5px 0;
   line-height: 33px; }
-
-.sidebar li h2, .column h2, .r_column h2, .r_sidebar h2, .commentbar h2 {
-  font-family: SansGuilt1, sanserif;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0 0 5px 0;
-  padding: 7px 2px;
-  border-top: 2px dotted $counter-accent;
-  background: url("images/hr_dot_olive.gif") 0 100% repeat-x; }
-
-.sidebar li li, .r_sidebar li li {
-  border-top: silver 1px dotted;
-  padding: 2px 0 2px 0; }
-
-.sidebar .category h2 {
-  margin: 0 !important; }
 
 h2 {
   font-size: 15px;
@@ -204,11 +194,36 @@ h3 {
   text-transform: uppercase;
   font-size: 15px; }
 
+#right_side, .sidebar {
+  h1, h2, h3, h4, h5, h6 {
+      text-align: right;
+      font-family: SansGuilt1, "Gill Sans MT", sans-serif;
+  }
+  h1 {
+      font-size: 24px;
+  }
+  text-align: right;
+}
+
+.sitetype {
+    font-family: SansGuilt1, "Gill Sans MT", sans-serif;
+    font-size: 24px;
+}
+
 #subnav {
   /*position: absolute; z-index: 60px; top: 85px;*/ }
 
 #nav {
   /*position: absolute; z-index: 80px; top: 110px;*/ }
+
+#masthead table {
+    table-layout: fixed;
+    width: 900px;
+}
+
+#mastheadleft {
+    width: 400px;
+}
 
 #nav a, #subnav a {
   font-family: SansGuilt1, sansserif;
@@ -217,27 +232,48 @@ h3 {
 
 ul#nav, ul#subnav {
   list-style: none;
-  width: 880px;
   padding: 0 10px;
   float: left;
-  clear: both; }
+  clear: both;
+  width: 100%; }
 
 ul#nav li, ul#subnav li {
-  margin: 3px 12px 3px 0;
+  margin: 3px 12px -7px 0;
   padding: 2px;
-  float: left;
   font-size: 14px; }
+
+ul#nav li {
+  text-align: right;
+}
 
 ul#subnav li {
   border-radius: 10px;
   padding-left: 6px;
   padding-right: 6px;
+  float: left;
   background-color: $counter-accent; }
 
-ul
 ul#subnav li a.current, ul#subnav li a.current:visited {
   color: gray;
   text-decoration: underline; }
+
+ul.blognav {
+    padding: 0 10px;
+  }
+
+ul.blognav a {
+  font-family: SansGuilt1,sansserif;
+  font-size: 15px;
+  color: black;
+  }
+
+ul.blognav li {
+  margin: 3px 12px 3px 0;
+  padding: 2px;
+  font-size: 14px;
+  float: left;
+  list-style:none;
+}
 
 #subnav a:hover {
   text-decoration: none;
@@ -282,28 +318,14 @@ ul#subnav li a.current, ul#subnav li a.current:visited {
 
 /*---:[ sidebar styles ]:---*/
 /*NEEDS TO BE 209px (AND NOT 210px) TO KEEP EXPLORER HAPPY*/
-.sidebar, .r_sidebar {
-  width: 209px;
-  float: left;
-  font-size: 12px; }
 
 .commentbar {
   width: 438px;
   font-size: 12px;
   float: left; }
 
-.sidebar {
-  margin: 0 20px 0 0;
-  overflow: hidden; }
-
-.r_sidebar {
-  margin: 0; }
-
-.sidebar ul, .sidebar li, .r_sidebar ul, .r_sidebar li, .commentbar li {
-  list-style: none; }
-
 .widget, .linkcat {
-  margin: 0 0 15px 0; }
+  margin: 0 0 30px 0; }
 
 .widget img {
   margin-right: 4px; }
@@ -321,8 +343,7 @@ ul#subnav li a.current, ul#subnav li a.current:visited {
 /*---:[ footer styles ]:---*/
 #footer p {
   margin: 0 0 1px 0;
-  color: gray;
-  text-align: right; }
+  color: gray; }
 
 /*---:[ comment styles ]:---*/
 .comments {
@@ -368,9 +389,6 @@ ul#subnav li a.current, ul#subnav li a.current:visited {
 
 .post {
   margin: 5px 0 15px 0; }
-
-.sidebar .post {
-  margin-top: 10px; }
 
 .entry {
   font-size: 12px; }
