@@ -11,6 +11,9 @@
 <!--[if lte IE 6]>
 <link rel="stylesheet" href="static/ie.css" type="text/css" />
 <![endif]-->
+<script type="text/javascript" src="static/jquery.min.js"></script>
+<script type="text/javascript" src="static/jquery.imagesLoaded.js"></script>
+<script type="text/javascript" src="static/portfolio.js"></script>
 </head>
 
 <body class="section-<%section_id%>">
@@ -35,7 +38,7 @@
 {{ work.body|safe }}
 
 {% for image in work.images %}
-<p><img src="{{ image.link }}" style="{{ image.width }}px;{{ image.height }}px;" title=></p>
+<div class="image-box"><img src="{{ image.link }}" style="{{ image.width }}px;{{ image.height }}px;" title=></div>
 {% endfor %}
 </div>
 </div>
