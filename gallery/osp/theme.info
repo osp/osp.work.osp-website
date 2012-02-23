@@ -1,10 +1,10 @@
-name = "Gallery Wind"
-description = "A crisp and distinctive theme that uses large fonts and icons for easy navigation and an enjoyable browsing experience."
+name = "OSP"
+description = "A simple theme compatible with bootstrap"
 version = 1
-author = "Gallery Team"
+author = "OSP"
 site = 1
 admin = 0
-author_name = "Gallery Team"
-author_url = "http://codex.gallery2.org/Gallery:Team"
-info_url = "http://codex.gallery2.org/Gallery3:Themes:wind"
-discuss_url = "http://gallery.menalto.com/forum_theme_wind"
+author_name = "OSP"
+author_url = "http://ospublish.constantvzw.org/"
+info_url = "http://ospublish.constantvzw.org/"
+discuss_url = "http://ospublish.constantvzw.org/"

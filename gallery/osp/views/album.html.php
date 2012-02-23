@@ -6,27 +6,31 @@
   <div class="g-description"><?= nl2br(html::purify($item->description)) ?></div>
 </div>
 
-<ul id="g-album-grid" class="ui-helper-clearfix">
+<ul class="thumbnails">
 <? if (count($children)): ?>
   <? foreach ($children as $i => $child): ?>
     <? $item_class = "g-photo"; ?>
     <? if ($child->is_album()): ?>
       <? $item_class = "g-album"; ?>
     <? endif ?>
-  <li id="g-item-id-<?= $child->id ?>" class="g-item <?= $item_class ?>">
+  <li id="<?= $child->id ?>" class="span3 <?= $item_class ?>">
+    <div class="thumbnail">
     <?= $theme->thumb_top($child) ?>
+    <div style="height:200px;">
     <a href="<?= $child->url() ?>">
       <? if ($child->has_thumb()): ?>
       <?= $child->thumb_img(array("class" => "g-thumbnail")) ?>
       <? endif ?>
     </a>
+    </div>
     <?= $theme->thumb_bottom($child) ?>
     <?= $theme->context_menu($child, "#g-item-id-{$child->id} .g-thumbnail") ?>
-    <h2><span class="<?= $item_class ?>"></span>
-      <a href="<?= $child->url() ?>"><?= html::purify($child->title) ?></a></h2>
+    <h4><span class="<?= $item_class ?>"></span>
+      <a href="<?= $child->url() ?>"><?= html::purify($child->title) ?></a></h4>
     <ul class="g-metadata">
       <?= $theme->thumb_info($child) ?>
     </ul>
+    </div>
   </li>
   <? endforeach ?>
 <? else: ?>
