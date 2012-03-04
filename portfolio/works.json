@@ -11,6 +11,21 @@
       }
     ]
   }, 
+  "osp.work.odessa.git": {
+    "body": "<h1>Odessa</h1>\n<h2>Record</h2>\n<p>Vinyl record design for Odessa band “Donna”</p>\n<p>Design by Harrisson</p>", 
+    "date": "2007", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.odessa.git;a=blob_plain;f=iceberg/8_donna3.png;hb=HEAD", 
+        "name": "8_donna3.png"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.odessa.git;a=blob_plain;f=iceberg/8_donnaweb.png;hb=HEAD", 
+        "name": "8_donnaweb.png"
+      }
+    ], 
+    "name": "Odessa"
+  }, 
   "osp.work.radio-panik-party.git": {
     "date": "2009", 
     "body": "<h1>Radio Panik Party</h1>\n<h2>Poster</h2>\n<p>done in ERG - Ecole de Recherche Graphique. </p>\n<p>800 x 640mm</p>\n<p>Students: Bachelors 1, graphic design course</p>\n<p>Photographers: Anne Sophie, Constant and Soquette</p>\n<p>Teachers: Sun Ok Papy KO and Harrisson</p>", 
@@ -22,6 +37,25 @@
         "name": "33posterpanikok.jpg"
       }
     ]
+  }, 
+  "osp.work.frog-and-prince.git": {
+    "body": "<h1>Frog and Prince</h1>\n<h2>Script</h2>\n<p>Frog and Prince is a fairytale featuring free software, python scripting and\nan open font. The story was premièred at LGM 2007 (Montréal, Canada), and\nformed the centerpiece of the Canadian Printing Breakfast (Brussels, June\n2007). Below is everything you need to make the recipe, but you can also\nbrowse through sample documents for each of the steps in the transformation\nprocess. Ingredients are there to be opened up, re-distributed, changed and\nimproved upon. Please report back when you use or abuse.</p>\n<p>http://ospublish.constantvzw.org/works/how-to-turn-a-frog-into-a-prince</p>", 
+    "date": "2007", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.frog-and-prince.git;a=blob_plain;f=iceberg/17_storypdf-10.jpg;hb=HEAD", 
+        "name": "17_storypdf-10.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.frog-and-prince.git;a=blob_plain;f=iceberg/17_storypdf-14.jpg;hb=HEAD", 
+        "name": "17_storypdf-14.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.frog-and-prince.git;a=blob_plain;f=iceberg/17_storypdf-4.jpg;hb=HEAD", 
+        "name": "17_storypdf-4.jpg"
+      }
+    ], 
+    "name": "Frog and Prince"
   }, 
   "osp.workshop.pcmmd.git": {
     "date": "2010", 
@@ -111,8 +145,38 @@
       }
     ]
   }, 
+  "osp.work.vj12-identity.git": {
+    "body": "<h1>Verbindingen/Jonctions 12</h1>\n<h2>Identity</h2>\n<p>Verbindingen/Jonctions 12<br />\nBy data we mean<br />\nBrussels, 21-29 November 2009<br />\nhttp://constantvzw.org/vj12/<br />\nDesign : Ludi<br />\n</p>", 
+    "date": "2008", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vj12-identity.git;a=blob_plain;f=iceberg/24_dsc03465.jpg;hb=HEAD", 
+        "name": "24_dsc03465.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vj12-identity.git;a=blob_plain;f=iceberg/24_img0131.jpg;hb=HEAD", 
+        "name": "24_img0131.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vj12-identity.git;a=blob_plain;f=iceberg/24_img0179.jpg;hb=HEAD", 
+        "name": "24_img0179.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vj12-identity.git;a=blob_plain;f=iceberg/24_p1060872.jpg;hb=HEAD", 
+        "name": "24_p1060872.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vj12-identity.git;a=blob_plain;f=iceberg/24_vj01.jpg;hb=HEAD", 
+        "name": "24_vj01.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.vj12-identity.git;a=blob_plain;f=iceberg/24_vj02.jpg;hb=HEAD", 
+        "name": "24_vj02.jpg"
+      }
+    ], 
+    "name": "Verbindingen/Jonctions 12"
+  }, 
   "osp.millle.LABtoLAB.git": {
-    "name": "LABtoLAB",
     "body": "<h1>LABtoLAB</h1>\n<h2>Media lab</h2>\n<p>http://www.labtolab.org\nlogo design and wiki theme\nOSP - Millle, 2011</p>", 
     "images": [
       {
@@ -128,7 +192,8 @@
         "name": "labtolab_logo.png"
       }
     ], 
-    "date": "2011"
+    "date": "2011", 
+    "name": "LABtoLAB"
   }, 
   "osp.work.tracks-in-electronic-fields-vj10.git": {
     "date": "2009", 
@@ -155,7 +220,6 @@
     ]
   }, 
   "osp.work.gallait.git": {
-    "name": "Constant Variable",
     "body": "<h1>Constant Variable</h1>\n<h2>Visual Identity for Free Libre Open Source Software Arts Lab</h2>\n<p>The 19th century town house at Rue Gallait 80 is now known as Constant Variable.\nFor three years, it will house an arts lab for free, libre and open source software.\nNext to the Open Source Publishing studio, there is an open video workshop and\nan open hardware workshop. The top floor houses a residency.</p>\n<p>OSP has created a modular visual identity for Constant Variable.\nUsing stickers with the VARIABLE logo and seperate keyword stickers representing\nFree, Libre, Open Source, Software and arts.</p>\n<p>The launch of Variable has coincided with the release of the Crickx font,\nused in the identity—based upon the letters from a Schaerbeek sign maker’s shop.</p>\n<p>The signage has been created using actual Crickx stock from Publi Fluor,\nthe stock upon which the digital font has been based.</p>", 
     "images": [
       {
@@ -175,7 +239,8 @@
         "name": "variable_sticker.jpg"
       }
     ], 
-    "date": "2011"
+    "date": "2011", 
+    "name": "Constant Variable"
   }, 
   "osp.work.constant-flyer.git": {
     "date": "2010", 
@@ -209,6 +274,17 @@
       }
     ]
   }, 
+  "osp.work.ptit-faystival.git": {
+    "body": "<h1>PTIT FAYSTIVAL</h1>\n<h2>Poster</h2>", 
+    "date": "2008", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.ptit-faystival.git;a=blob_plain;f=iceberg/pfweb.png;hb=HEAD", 
+        "name": "pfweb.png"
+      }
+    ], 
+    "name": "PTIT FAYSTIVAL"
+  }, 
   "osp.work.vecteur.git": {
     "date": "2009", 
     "body": "<h1>Vecteur</h1>\n<h2>Logo</h2>", 
@@ -240,6 +316,17 @@
         "name": "logojiazseulsvg-inkscape.png"
       }
     ]
+  }, 
+  "osp.work.routes-routines.git": {
+    "body": "<h1>Routes + Routines</h1>\n<p>Routes + Routines booklet designed by Yi Jiang and Ludivine Loiseau \ndocumenting Peter Westenberg’s Hasseltse Netwerkwandelingen.</p>", 
+    "date": "2008", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.routes-routines.git;a=blob_plain;f=iceberg/img0857.jpg;hb=HEAD", 
+        "name": "img0857.jpg"
+      }
+    ], 
+    "name": "Routes + Routines"
   }, 
   "osp.work.circular-facts.git": {
     "date": "2011", 
@@ -362,7 +449,6 @@
     ]
   }, 
   "osp.work.acsr.git": {
-    "name": "Atelier de Création Sonore Radiophonique",
     "body": "<h1>acsr</h1>\n<p>Atelier de Création Sonore Radiophonique sound repository.</p>\n<p><a href=\"http://www.acsr.be\">http://www.acsr.be</a>\nVisual identity and WordPress design\nStéphanie Vilayphiou, Ludi and Jérôme Degive from Pica Pica, 2011</p>", 
     "images": [
       {
@@ -386,10 +472,10 @@
         "name": "semaine-son_2.jpg"
       }
     ], 
-    "date": "2011"
+    "date": "2011", 
+    "name": "Atelier de Création Sonore Radiophonique"
   }, 
   "osp.work.panik.git": {
-    "name": "Radio Panik",
     "body": "<h1>Radio Panik</h1>\n<p>OSP has designed the 2012 program for Brussels based alternative radio station, Radio Panik.\nThe program (‘the grille’) is constructed through what is considered a type crime—\nhorizontally squashing the text to make it fit. We debuted our new typeface Reglo for this job.</p>\n<p>Next to the design of the program, we constructed a web interface that provides a means\nfor the employees of Radio Panik to generate cd covers and posters in the same style.</p>\n<p>The web interface allows one to browse and choose from the various image categories of Wikimedia Commons,\ninput a text and choose a paper size, after which it will generate a design in a vector file format.\nThe output is an SVG file which can be further edited in proprietary and libre image editors.</p>", 
     "images": [
       {
@@ -409,7 +495,8 @@
         "name": "interface_example_output.png"
       }
     ], 
-    "date": "2012"
+    "date": "2012", 
+    "name": "Radio Panik"
   }, 
   "osp.work.paralellipedia.git": {
     "date": "2010", 
@@ -460,7 +547,6 @@
     ]
   }, 
   "balsamine.git": {
-    "name": "Théatre Balsamine",
     "body": "<h1>Visual identity for the Balsamine theatre.</h1>\n<h2>website, programmes, posters, fanzine and more</h2>\n<p>Changer de direction, c'est souvent changer sa ligne graphique. Changer de peau en soi, faire remarquer sa nouvelle présence, forger son image, se faire une réputation. Mais est-ce aussi simple que cela, est-ce que cela tient uniquement à cette façade de sa propre reconnaissance ? Ce qui est certain, c'est que, comme chaque relation que nous voulions entamer, l'idée du dialogue et du processus devait exister. Voilà pourquoi, il était important de rencontrer des personnalités philosophiquement engagées dans ces deux propositions. Instinctivement, nous sommes allés vers Speculoos. Ici nous interrompons le texte, extrait du blog http://osp.constantvzw.org/ :\n« En février Monica et Fabien du Théâtre de la Balsamine sont arrivés chez Speculoos, et deux heures après ils sont repartis, sans même vraiment le savoir, avec en plus OSP et <stdin>. Pierre a senti d'une part qu'une hétérogéneïté de pratiques graphiques serait mieux à même de rendre compte de la tentative d'involution du projet théâtral naissant de la Balsamine, et d'autre part que, pour une fois, OSP pouvait risquer une réponse à une demande sans qu'une complicité préalable n'existe avec le mode expérimental qui lui est inhérent. </p>", 
     "images": [
       {
@@ -488,7 +574,79 @@
         "name": "balsa_affiches-saison3.png"
       }
     ], 
-    "date": "2011"
+    "date": "2011", 
+    "name": "Théatre Balsamine"
+  }, 
+  "osp.work.openbaar-schrijver.git": {
+    "body": "<h1>Openbaar Schrijver</h1>\n<h2>Poster, flyer, catalogue and templates</h2>\n<p>generated in OpenOffice<br />\nfor Openbaar Schrijver (Ana Foor)</p>\n<p>Design and development: Ludi Loiseau, Ivan Monroy Lopez, \nPierre Marchand, Femke Snelting</p>\n<p>http://ospublish.constantvzw.org/works/valentine-scripting</p>", 
+    "date": "2010", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os02-b.jpg;hb=HEAD", 
+        "name": "os02-b.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os02.jpg;hb=HEAD", 
+        "name": "os02.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os03.jpg;hb=HEAD", 
+        "name": "os03.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os04-b.jpg;hb=HEAD", 
+        "name": "os04-b.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os04.jpg;hb=HEAD", 
+        "name": "os04.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os05.jpg;hb=HEAD", 
+        "name": "os05.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os06.jpg;hb=HEAD", 
+        "name": "os06.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os07.jpg;hb=HEAD", 
+        "name": "os07.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os08.jpg;hb=HEAD", 
+        "name": "os08.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os09.jpg;hb=HEAD", 
+        "name": "os09.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os10.jpg;hb=HEAD", 
+        "name": "os10.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os11.jpg;hb=HEAD", 
+        "name": "os11.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os12.jpg;hb=HEAD", 
+        "name": "os12.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os13.jpg;hb=HEAD", 
+        "name": "os13.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os14.jpg;hb=HEAD", 
+        "name": "os14.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.openbaar-schrijver.git;a=blob_plain;f=iceberg/os15.jpg;hb=HEAD", 
+        "name": "os15.jpg"
+      }
+    ], 
+    "name": "Openbaar Schrijver"
   }, 
   "osp.work.pierre-normal-tour.git": {
     "date": "2009", 
@@ -525,6 +683,21 @@
         "name": "grey-booklet-yes.gif"
       }
     ]
+  }, 
+  "osp.work.pzi.catalogue2008.git": {
+    "body": "<h1>Piet Zwart Institute Catalogue</h1>\n<h2>Book</h2>\n<p>500 unique books for the Piet Zwart institute, Rotterdam.</p>\n<p>Installed in Worm, Rotterdam (giant pixel image by Gordan Savičić and Danja Vassiliev)</p>", 
+    "date": "2008", 
+    "images": [
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.pzi.catalogue2008.git;a=blob_plain;f=iceberg/15_p1020288.jpg;hb=HEAD", 
+        "name": "15_p1020288.jpg"
+      }, 
+      {
+        "link": "http://git.constantvzw.org/?p=osp.work.pzi.catalogue2008.git;a=blob_plain;f=iceberg/15_p1020303.jpg;hb=HEAD", 
+        "name": "15_p1020303.jpg"
+      }
+    ], 
+    "name": "Piet Zwart Institute Catalogue"
   }, 
   "osp.work.cross-over.git": {
     "date": "2008", 
