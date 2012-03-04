@@ -28,8 +28,9 @@ def gettree(repo, path=None):
     
     return tree
 
-def update_work(repo):
-    works[repo] = {}
+def update_work(repo, date=""):
+    if repo not in works:
+        works[repo] = {}
     print "README", repo
     try:
         readme_link = [i['link'] for i in gettree(repo) if 'README' in i['name']][0]
@@ -38,7 +39,9 @@ def update_work(repo):
         # but constant’s server sends the wrong encoding:
         readme = unicode(readme.read(), 'UTF-8')
         readme = readme.split("- - -")[0]
+        works[repo]['name'] = readme.splitlines()[0]
         works[repo]['body'] = markdown(readme)
+        works[repo]['date'] = date
     except IndexError:
         pass
     

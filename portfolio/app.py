@@ -25,7 +25,10 @@ for i in sorted(list(set(sorted_works.keys())), reverse=True):
 def display(slug):
     work = None
     if slug:
-        work = works[slug + '.git']
+        if '.git' in slug:
+            work = works[slug]
+        else:
+            work = works[slug + '.git']
     return render_template('index.html', work=work, works=really_sorted_works)
 
 @app.route("/")
@@ -35,7 +38,7 @@ def hello():
 @app.route("/generate")
 def make():
     for i in works.keys():
-        with codecs.open(os.path.join(os.getcwd(), 'public',   works[i]['slug'].replace('.git','.html')), 'w', 'UTF-8') as f:
+        with codecs.open(os.path.join(os.getcwd(), 'public',   i.replace('.git','.html')), 'w', 'UTF-8') as f:
             f.write(display(i))
     with codecs.open(os.path.join(os.getcwd(), 'public', 'index.html'), 'w', 'UTF-8') as f:
         f.write(hello())
