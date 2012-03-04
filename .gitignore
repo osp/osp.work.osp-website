@@ -5,5 +5,5 @@
 credentials.txt
 .sass-cache
 
-./portfolio/public/*.html
+portfolio/public/*.html
 
