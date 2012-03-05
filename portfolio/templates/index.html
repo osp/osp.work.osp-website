@@ -1,49 +1,46 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
 <title>OSP Works {{ work.name }}</title>
 
-<link rel="stylesheet" href="static/style.css" type="text/css" />
-<!--[if lte IE 6]>
-<link rel="stylesheet" href="static/ie.css" type="text/css" />
-<![endif]-->
+<link rel="stylesheet" href="http://ospublish.constantvzw.org/css/type/atfont-face.css" type="text/css" />
+<link rel="stylesheet" href="http://ospublish.constantvzw.org/css/osp.bootstrap.css" type="text/css" />
+
 <script type="text/javascript" src="static/jquery.min.js"></script>
 <script type="text/javascript" src="static/jquery.imagesLoaded.js"></script>
 <script type="text/javascript" src="static/portfolio.js"></script>
 </head>
 
-<body class="section-<%section_id%>">
-<div id="menu">
+<body>
+{% include "header.html" %}
 <div class="container">
-<p><a href="/"><img src="http://ospublish.constantvzw.org/works/files/gimgs/frogy03.gif" /></a></p>
+  <div class="row">
+    <div class="span4">
+    <p><a href="/"><img src="http://ospublish.constantvzw.org/works/files/gimgs/frogy03.gif" /></a></p>
 
-<p>OSP Works</p>
+    <p>OSP Works</p>
 
-{% for year in works %}
-{{ year.year }}
-<ul>
-{% for w in year.works %}
-<li><a href="{{ w.link }}">{{ w.name }}</a></li>
-{% endfor %}
-</ul>
-{% endfor %}
+    {% for year in works %}
+    {{ year.year }}
+    <ul>
+    {% for w in year.works %}
+    <li><a href="{{ w.link }}">{{ w.name }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endfor %}
 
 
-</div>	
-</div>	
+    </div>
+    <div class="span8">
+    {{ work.body|safe }}
 
-<div id="content">
-<div class="container">
-{{ work.body|safe }}
-
-{% for image in work.images %}
-<div class="image-box"><img src="{{ image.link }}" style="{{ image.width }}px;{{ image.height }}px;" title=></div>
-{% endfor %}
-</div>
+    {% for image in work.images %}
+    <div class="image-box"><img src="{{ image.link }}" style="{{ image.width }}px;{{ image.height }}px;" title=></div>
+    {% endfor %}
+    </div>
+  </div>
 </div>
 
 </body>

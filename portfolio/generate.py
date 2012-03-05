@@ -53,3 +53,6 @@ def update_work(repo, date=""):
         pass
     
 
+def write():
+    f = codecs.open('works.json','w','UTF-8')
+    f.write(json.dumps(works, indent=2, ensure_ascii=False))
