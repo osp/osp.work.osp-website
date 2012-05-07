@@ -2,12 +2,18 @@
 
 from urllib2 import urlopen, quote
 from markdown import markdown
+import unicodedata
 import lxml.html
 import json
 import codecs
 import re
 
 works = json.loads(codecs.open('works.json', 'UTF-8').read())
+
+def slugify(value):
+    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore')
+    value = re.sub('[^\w\s-]', '', value).strip().lower()
+    return re.sub('[-\s]+', '-', value)
 
 def gettree(repo, path=None):
     siteroot = 'http://git.constantvzw.org'
