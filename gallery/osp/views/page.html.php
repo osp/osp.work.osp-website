@@ -66,8 +66,8 @@
     <!-- LOOKING FOR YOUR CSS? It's all been combined into the link below -->
     <?= $theme->get_combined("css") ?>
 
-    <link rel="stylesheet" href="http://ospublish.constantvzw.org/css/type/atfont-face.css" type="text/css" />
-    <link rel="stylesheet" href="http://ospublish.constantvzw.org/css/osp.bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="/css/type/atfont-face.css" type="text/css" />
+    <link rel="stylesheet" href="/css/osp.bootstrap.css" type="text/css" />
 
     <!-- LOOKING FOR YOUR JAVASCRIPT? It's all been combined into the link below -->
     <?= $theme->get_combined("script") ?>
@@ -84,27 +84,27 @@
             <div class="container">
                     <ul class="nav">
                         <li>
-                            <a href="http://ospublish.constantvzw.org/" class="brand">OSP</a>
+                            <a href="/" class="brand">OSP</a>
                         </li>
                         <li>
-                            <a href="http://ospublish.constantvzw.org/portfolio/">Portfolio</a>
+                            <a href="/portfolio/">Portfolio</a>
                         </li>
                         <li>
                             <a href="http://git.constantvzw.org/">Source Files</a>
                         </li>
                         <li class="active">
-                            <a href="http://ospublish.constantvzw.org/images/">Snapshots</a>
+                            <a href="/images/">Snapshots</a>
                         </li>
                         <li>
-                            <a href="http://ospublish.constantvzw.org/foundry/">Foundry</a>
+                            <a href="/foundry/">Foundry</a>
                         </li>
                     </ul>
                     <ul class="nav pull-right">
                         <li>
-                            <a href="http://ospublish.constantvzw.org/about">About</a>
+                            <a href="/about">About</a>
                         </li>
                         <li>
-                            <a href="http://ospublish.constantvzw.org/contact">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>
                </div>
