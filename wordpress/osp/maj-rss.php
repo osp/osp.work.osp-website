@@ -4,7 +4,7 @@
  $xml .= '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">'; 
  $xml .= '<channel>'; 
  $xml .= '<title>OSP-works</title>';
- $xml .= '<link>http://ospublish.constantvzw.org/works/</link>';
+ $xml .= '<link>/works/</link>';
  $xml .= '<description>What we\'ve made</description>';
  $xml .= '<copyright>Free Arts License</copyright>';
  $xml .= '<language>en</language>';
@@ -23,7 +23,7 @@
   	
     $id=$lig["id"];
     $titre=$lig["title"];
-    $adresse='http://ospublish.constantvzw.org/works/index.php?';
+    $adresse='/works/index.php?';
     $adresse.=$lig["url"];
     $contenu=str_replace("<p>","",$lig["content"]);
     $contenu=str_replace("</p>","",$contenu);

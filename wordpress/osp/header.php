@@ -13,7 +13,7 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-	<link rel="icon" type="image/gif" href="http://ospublish.constantvzw.org/wp-content/uploads/frog.gif">
+	<link rel="icon" type="image/gif" href="/wp-content/uploads/frog.gif">
 
   <script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
   <script src="<?php bloginfo('template_directory'); ?>/js/ospublish.js"></script>
@@ -42,8 +42,8 @@ $result_random=rand(1, 7);
 <td id="mastheadright">
 
     <ul id="nav">
-      <li class="page_item page-item-2"><a href="http://ospublish.constantvzw.org/about">About</a></li>
-      <li class="page_item page-item-241"><a href="http://ospublish.constantvzw.org/contact">Contact</a></li>
+      <li class="page_item page-item-2"><a href="/about">About</a></li>
+      <li class="page_item page-item-241"><a href="/contact">Contact</a></li>
       <li><a href="/images/">Snapshots</a></li>
       <li><a href="/portfolio/">Portfolio</a></li>
       <li><a href="http://git.constantvzw.org/">Project Source Files</a></li>
@@ -54,5 +54,5 @@ $result_random=rand(1, 7);
 
 </div><!--masthead-->
 
-<!--<div id="head_bckgr"><img src="http://ospublish.constantvzw.org/wp-content/themes/osp/images/title.jpg"></a></div>-->
+<!--<div id="head_bckgr"><img src="/wp-content/themes/osp/images/title.jpg"></a></div>-->
 

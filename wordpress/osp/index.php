@@ -11,10 +11,10 @@
 
                       <ul class="blognav">
                             <?php wp_list_categories('sort_column=name&depth=1&title_li=&exclude=129,32'); ?>
-                            <li class="page_item page-item-83"><a href="http://ospublish.constantvzw.org/archives">Archives</a></li>
-                            <li class="page_item page-item-938"><a href="http://ospublish.constantvzw.org/tags">Tags</a></li>
-                            <li class="page_item page-item-4838"><a href="http://ospublish.constantvzw.org/library">Library</a></li>
-                            <li class="page_item page-item-81"><a href="http://ospublish.constantvzw.org/links">Links</a></li>
+                            <li class="page_item page-item-83"><a href="/archives">Archives</a></li>
+                            <li class="page_item page-item-938"><a href="/tags">Tags</a></li>
+                            <li class="page_item page-item-4838"><a href="/library">Library</a></li>
+                            <li class="page_item page-item-81"><a href="/links">Links</a></li>
                             <li><a href="/recipes">Recipes</a></li>
                           </ul>
                           <div style="clear:both;"></div>

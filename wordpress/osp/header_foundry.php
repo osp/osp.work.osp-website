@@ -8,12 +8,12 @@
 	
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
 	
-	<link rel="stylesheet" href="http://ospublish.constantvzw.org/wp-content/themes/osp/foundry.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/wp-content/themes/osp/foundry.css" type="text/css" media="screen" />
 
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-	<link rel="icon" type="image/gif" href="http://ospublish.constantvzw.org/wp-content/uploads/frog.gif">
+	<link rel="icon" type="image/gif" href="/wp-content/uploads/frog.gif">
 
 	<?php wp_head(); ?>
 </head>
