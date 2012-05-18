@@ -1,0 +1,135 @@
+/* --- osp styles --- */ 
+ 
+/* Page */ 
+html { 
+  font-size: 100%; 
+} 
+
+@font-face {
+    font-family: lmitalic;
+    src: url("./fonts/lmroman10-italic.otf");
+}
+
+@font-face {
+    font-family: lmroman;
+    src: url("./fonts/lmroman10-regular.otf");
+}
+
+@font-face {
+    font-family: patin;
+    src: url("./fonts/OSP_Le-patin-helvete.ttf");
+}
+
+@font-face {
+    font-family: univers;
+    src: url("./fonts/UniversElse-Regular.ttf");
+}
+
+
+
+
+body { 
+	margin-left: 10px; 
+	margin-top: 10px; 
+	width:900px;
+	font-family: Sans; 
+	font-size: 10px;  
+} 
+
+
+.pieces{
+	text-align: center; 
+	font-family: univers, sans; 
+	font-size: 15px;  
+	color: black; 
+	margin-top:0px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px blue;
+}
+
+
+/* = menu
+-------------------------------------------------------------- */
+
+#menu{
+	font-family: univers; 
+	font-size: 15px;
+	text-align: left; 
+	color: black; 
+	margin-top:0px;
+	padding-bottom: 0px;
+}
+
+/* = iceberg
+-------------------------------------------------------------- */
+#iceberg-box{
+	float: left;
+	margin-left:30px;
+	width: 350px;
+	margin-top: 30px;
+}
+
+.iceberg-pict{
+}
+
+.intitule{
+	text-align: left; 
+	font-family: univers, sans; 
+	font-size: 15px;  
+	color: blue; 
+	margin-top:10px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+/* = commit
+-------------------------------------------------------------- */
+#commit-box{
+	float:left;
+	width: 250px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.commit-message{
+	text-align: left; 
+	font-family: patin, serif; 
+	font-size: 21px;  
+	color: black; 
+}
+
+.commit-author{
+	text-align: left; 
+	font-family: lmroman, serif; 
+	font-size: 9px;  
+	color: black; 
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.commit-info{
+	text-align: left; 
+	font-family: lmitalic, serif; 
+	font-size: 10.5px;  
+	color: black; 
+}
+
+
+
+
+/* = blog
+-------------------------------------------------------------- */
+
+.post-title{
+	text-align: left; 
+	font-family: lmitalic, serif; 
+	font-size: 9px;  
+	color: black; 
+}
+
+
+
+
