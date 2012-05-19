@@ -1,0 +1,8 @@
+- home layout
+
+- pages layout (gallery - works, workshops, foundry)
+
+
+- html to php
+- icebergs feeding
+- foundry update + test drive
