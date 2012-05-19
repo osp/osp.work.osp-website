@@ -88,7 +88,17 @@ body {
 }
 
 
-
+/* = legende
+-------------------------------------------------------------- */
+.legende-box{
+	float: left;
+	margin:3px;
+	width: 60px;
+	height: 20px;
+	text-align: left; 
+	font-family: lmitalic, serif italic; 
+	font-size: 10px;  
+	color: blue; 
 
 
 /* = commit
