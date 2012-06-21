@@ -66,8 +66,19 @@
     <!-- LOOKING FOR YOUR CSS? It's all been combined into the link below -->
     <?= $theme->get_combined("css") ?>
 
-    <link rel="stylesheet" href="/css/type/atfont-face.css" type="text/css" />
-    <link rel="stylesheet" href="/css/osp.bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="http://osp.schr.fr/atfont-face/atfont-face.css" type="text/css" />
+    <link rel="stylesheet" href="http://osp.schr.fr/atfont-face/UniversElse.css" type="text/css" />
+    <link rel="stylesheet" href="http://osp.schr.fr/css/osp.main.css" type="text/css" />
+<style>
+    .thumbnail {
+    height: 280px;
+}
+
+div.thumbnail div.thumb {
+    height: 130px;
+    overflow: hidden;
+}
+</style>
 
     <!-- LOOKING FOR YOUR JAVASCRIPT? It's all been combined into the link below -->
     <?= $theme->get_combined("script") ?>
@@ -82,31 +93,17 @@
     <div class="navbar">
         <div class="navbar-inner">
             <div class="container">
-                    <ul class="nav">
-                        <li>
-                            <a href="/" class="brand">OSP</a>
-                        </li>
-                        <li>
-                            <a href="/portfolio/">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="http://git.constantvzw.org/">Source Files</a>
-                        </li>
-                        <li class="active">
-                            <a href="/images/">Snapshots</a>
-                        </li>
-                        <li>
-                            <a href="/foundry/">Foundry</a>
-                        </li>
-                    </ul>
-                    <ul class="nav pull-right">
-                        <li>
-                            <a href="/about">About</a>
-                        </li>
-                        <li>
-                            <a href="/contact">Contact</a>
-                        </li>
-                    </ul>
+                        <ul class="nav">
+        <li><a href="http://osp.constantvzw.org/" class="brand">OSP</a></li>
+        <li><a href="http://osp.schr.fr/work/">Works</a></li>
+        <li><a href="http://osp.constantvzw.org/foundry/">Foundry</a></li>
+        <li><a href="http://osp.schr.fr/workshop/">Workshops</a></li>
+        <li><a href="http://osp.schr.fr/tools/">Tools</a></li>
+        <li><a href="http://osp.constantvzw.org/blog/">Blog</a></li>
+        <li><a href="http://osp.constantvzw.org/images/">Images</a></li>
+        <li><a href="http://osp.constantvzw.org/about">About</a></li>
+        <li><a href="http://osp.constantvzw.org/contact">Contact</a></li>
+                        </ul>
                </div>
         </div>
     </div>
