@@ -1,4 +1,3 @@
-<meta charset="utf-8">
 <?php
 $url='http://osp.schr.fr/commits.json'; 
 $commits = json_decode(get_data($url), true);
@@ -8,9 +7,10 @@ $type = $ids[1];
  <dl>
  <?php
  
+ $commits = array_slice($commits, 0, 3);
  foreach($commits as $commit) {
-     echo "<dt><span class='author'>$commit[author]</span> <span class='commit-info'>$commit[date] — from the <a href='http://osp.schr.fr/$type/'>$type</a> <a href='http://osp.schr.fr/$repo[web_path]/'>$repo[title]</a></span></dt>
-     <dd class='commit-message'>—— $commit[message]</dd>\n\n";
+     echo "<dt class='commit'><span class='author'>$commit[author]</span> <span class='commit-info'>$commit[date] — from the <a href='http://osp.schr.fr/$type/'>$type</a> <a href='http://osp.schr.fr/$repo[web_path]/'>$repo[title]</a></span></dt>
+     <dd class='commit-message'>— $commit[message]</dd>\n\n";
  }
  ?>
  </dl>

@@ -1,4 +1,3 @@
-<meta charset="utf-8">
 <?php
 $url='http://osp.schr.fr/repos.json'; 
 $repos = json_decode(get_data($url), true);
@@ -8,12 +7,19 @@ $repos = json_decode(get_data($url), true);
  <dl>
  <?php
  
+ $iceberg_repos = array();
  foreach($repos as $repo) {
      if ($repo['iceberg']) {
-        echo "<dt><img src='http://osp.schr.fr/$repo[web_path]/thumbnail/latest/iceberg/{$repo[iceberg][0]}' /></dt>\n
-       <dd>$repo[title]</dd>\n";
+        $iceberg_repos[] = $repo;
      }
  }
+
+$iceberg_repos = array_slice($iceberg_repos, 0, 4);
+ 
+ foreach($iceberg_repos as $repo) {
+        echo "<dt class='iceberg-pict'><img src='http://osp.schr.fr/$repo[web_path]/thumbnail/latest/iceberg/{$repo[iceberg][0]}' /></dt>\n
+       <dd class='intitule'>$repo[title]</dd>\n";
+  }
  ?>
  </dl>
  <?php
