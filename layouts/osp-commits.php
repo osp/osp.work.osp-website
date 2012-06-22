@@ -1,16 +1,19 @@
 <?php
 $url='http://osp.schr.fr/commits.json'; 
 $commits = json_decode(get_data($url), true);
-$ids = explode('.', $repo['slug']);
-$type = $ids[1];
  ?>
  <dl>
  <?php
  
- $commits = array_slice($commits, 0, 3);
- foreach($commits as $commit) {
-     echo "<dt class='commit'><span class='author'>$commit[author]</span> <span class='commit-info'>$commit[date] — from the <a href='http://osp.schr.fr/$type/'>$type</a> <a href='http://osp.schr.fr/$repo[web_path]/'>$repo[title]</a></span></dt>
-     <dd class='commit-message'>— $commit[message]</dd>\n\n";
+ $commits = array_slice($commits, 0, 5);
+foreach($commits as $commit) {
+    $ids = explode('.', $commit["parent_repo_slug"]);
+    $type = $ids[1];
+    $title = $ids[2];
+     echo "<dt class='commit'><span class='commit-author'>$commit[author]</span> said:</dt>
+         <dd class='commit-message'>— $commit[message]</dd>\n\n
+         <dd class='commit-info'>". date("l, j F Y",strtotime($commit[date]))." — from the $type <a href='$commit[parent_repo_url]'>$commit[parent_repo_title]</a></dd>
+         <dd class='commit-source'><a href='$commit[parent_repo_url]view/latest/'>Source files</a></dd>";
  }
  ?>
  </dl>

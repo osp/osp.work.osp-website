@@ -17,8 +17,8 @@ $repos = json_decode(get_data($url), true);
 $iceberg_repos = array_slice($iceberg_repos, 0, 4);
  
  foreach($iceberg_repos as $repo) {
-        echo "<dt class='iceberg-pict'><img src='http://osp.schr.fr/$repo[web_path]/thumbnail/latest/iceberg/{$repo[iceberg][0]}' /></dt>\n
-       <dd class='intitule'>$repo[title]</dd>\n";
+        echo "<dt class='iceberg-pict'><a href='http://osp.schr.fr/$repo[web_path]/'><img src='http://osp.schr.fr/$repo[web_path]/thumbnail/latest/iceberg/{$repo[iceberg][0]}' /></dt>\n
+       <dd class='intitule'>$repo[title]</a></dd>\n";
   }
  ?>
  </dl>
