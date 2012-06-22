@@ -50,39 +50,32 @@
 	</div>
 -->
 
-	<div id="underground">
+	<div id="active-projects">
 	
 <!--
         <div class="legende-box"> 
             Below water: sources, tools, images, stories ↓
         </div>
 -->
-
-        <div id="commit-box"> 
-            <div class="pieces">
-                Latest commit messages
-            </div>
                 <?php require "osp-iceberg.php"; ?>
-                 <?php require "osp-commits.php"; ?>
-        </div>
-
-        <div id="menu">
-            <li><a href="http://osp.schr.fr/work/">Works</a></li>
-            <li><a href="http://osp.constantvzw.org/foundry/">Foundry</a></li>
-            <li><a href="http://osp.schr.fr/workshop/">Workshops</a></li>
-            <li><a href="http://osp.schr.fr/tools/">Tools</a></li>
-            <li><a href="http://osp.constantvzw.org/blog/">Blog</a></li>
-            <li><a href="http://osp.constantvzw.org/images/">Images</a></li>
-            <li><a href="http://osp.constantvzw.org/about">About</a></li>
-            <li><a href="http://osp.constantvzw.org/contact">Contact</a></li>
-
-            <object type="image/svg+xml" style="width:60px;height:60px;" data="./pict/OSP_new-frog.svg">
-                <img src="./pict/OSP_new-frog.png" style="width:60px;height:60px;" alt="A stylised image of a frog." />
-            </object>
-                OSP  
-        </div>
-
+                 <?php //require "osp-commits.php"; ?>
 	</div>
+
+    <div id="menu">
+        <li><a href="http://osp.schr.fr/work/">Works</a></li>
+        <li><a href="http://osp.constantvzw.org/foundry/">Foundry</a></li>
+        <li><a href="http://osp.schr.fr/workshop/">Workshops</a></li>
+        <li><a href="http://osp.schr.fr/tools/">Tools</a></li>
+        <li><a href="http://osp.constantvzw.org/blog/">Blog</a></li>
+        <li><a href="http://osp.constantvzw.org/images/">Images</a></li>
+        <li><a href="http://osp.constantvzw.org/about">About</a></li>
+        <li><a href="http://osp.constantvzw.org/contact">Contact</a></li>
+
+        <object type="image/svg+xml" style="width:60px;height:60px;" data="./pict/OSP_new-frog.svg">
+            <img src="./pict/OSP_new-frog.png" style="width:60px;height:60px;" alt="A stylised image of a frog." />
+        </object>
+            OSP  
+    </div>
 
 
 </body>

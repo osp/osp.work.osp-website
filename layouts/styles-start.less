@@ -2,9 +2,18 @@
 
 /* Variables */
 @color-background: #5555FF;
-@color-link: #FFAA00;
+@color-link: black;
+@font-size-mini :9px;
 @font-size-small: 12px;
+@font-size-medium: 15px;
+@font-size-big: 21px;
+
  
+
+
+
+
+
 /* Page */ 
 html { 
   font-size: 100%; 
@@ -41,21 +50,18 @@ html {
 //default
 
 body { 
-	/*margin-left: 10px; */
 	margin-top: 10px; 
-	/*width: 900px;*/
 	font-family: "univers"; 
-	font-size: 18px; 
-    line-height: 1.2;
-	/*background-image: url('./pict/iceberg-gouache-1.png');*/
-	/*background-repeat:no-repeat;*/
-	/*background-position: 175px 100px;	*/
-    color: black;
+	font-size: 12px; 
+	line-height: 1.2;
+	color: black;
 } 
 
 a {
     color: @color-link;
+    text-decoration:none;
 }
+
 
 dt {
        letter-spacing: 0.05em;
@@ -64,89 +70,140 @@ dt {
 }
 
 
-.pieces{
-	text-align: center; 
-	text-transform: uppercase;
+
+///////// active pieces /////////
+
+#active-projects{
+	float: left;
+	margin-top:15px;
+	margin-left:20px;
+	width: 80%;
+// 	height: 321px;
+// 	background:blue;
+}
+
+
+// project box -------------------------------------------------
+
+.project{
+	float: left;
+	width: 250px;
+	margin-right: 20px;
+// 	background:yellow;
+}
+
+.project-type{
 	font-family: universlight, sans; 
-	font-size: @font-size-small;  
-	color: black; 
-	margin-top:0px;
+	text-transform: uppercase;
+	font-size: @font-size-mini; 
+	text-align: center; 
+	line-height: 13px;
+	letter-spacing: 0.05em;
+	margin-top:10px;
 	padding-bottom: 10px;
 }
 
-
-// legende ----------------------------------------------
-
-.legende-box{
+.project-title{
 	height: 12px;
 	font-family: lmroman, serif; 
-	font-size: @font-size-small;  
-   margin-bottom: 30px;
-}
-#iceberg .legende-box{
-	text-align: right; 
-}
-
-
-//up---------------------------------------------------------
-
-
-#up-side{
-	float: left;
-	margin-left:15px;
-	width: 648px;
-	height: 500px;
-	border-right: dotted 1px black;
-}
-#up-side-left {
-    float: left;
-    width: 350px;
+	font-size: @font-size-medium;  
+	text-align: left; 
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
 
-#iceberg{
-	float: left;
+
+//iceberg pictures -------------------------------------------------
+
+.iceberg{
+	float: center;
 	margin-right:15px;
-    text-align: center;
-    width: 250px;
+	width: 250px;
+// 	background:green;
 }
-
-
 
 .iceberg-pict{
 	border: solid 1px gray;
+	width:100px;
 }
 
-.intitule{
-	font-family: univers, sans; 
+
+// commit -------------------------------------------------
+ 
+.commit-list{
+       float:left;
+       width: 250px;
+//        background:grey;
+}
+
+.grappe{
+	border: solid 1px;
+	padding : 5px 5px 5px 5px;
+	margin-bottom: -1px;
+	margin-right: -1px;
+	
+}
+
+.commit{
+       padding-left: 18px;
+       line-height: 1.2em;
+       margin-top: 20px;
+}
+
+.commit-author{
+	text-transform: uppercase;
+	font-family: lmroman, serif;
+	letter-spacing: 0.05em;
+	font-size: @font-size-small;
+	.grappe;
+}
+
+.commit-author-said{
+	text-transform: none;
+	font-family: lmroman, serif;
+	letter-spacing: 0.05em;
 	font-size: @font-size-small; 
-	line-height: 13px;
-	color: black; 
-	margin-top:10px;
-	padding-bottom: 20px;
+	border:solid 1px;
+	.grappe;
+}
+
+.commit-message{
+       padding-left: 18px;
+       text-indent: -18px;
+       font-family: patin, serif;
+       margin-top: 5px;
+       font-size: 14px;
+       line-height: 1.3em; 
+       border:solid 1px;
+}
+
+.commit-message:before{
+	content: "— ";
+	
+}
+
+.commit-date{
+	font-family: lmitalic, serif;
+	font-size: @font-size-small; 
+	margin-left: 18px;
+	border:solid 1px;
+
+}
+
+.commit-source {
+    font-size: @font-size-small;
+       margin-left: 18px;
 }
 
 
-/* = underground
---------------------------------------------------------------
---------------------------------------------------------------*/
-
-#underground{
-	float: left;
-    margin-left: 310px;
-    /*border-left: 1px dotted black;*/
-    padding-left: 2em;
-/* 	background: lightsteelblue; */
-}
 
 
-/* = menu
--------------------------------------------------------------- */
+///////// menu /////////
 
 #menu{
 	float: left;
-	margin-top:30px;
-	margin-left:50px;
-	width: 90px;
+	margin-top:15px;
+	margin-left:10px;
 	height: 321px;
 	font-size: @font-size-small; 
 	text-align: left; 
@@ -155,6 +212,8 @@ dt {
 
 #menu li{
 	list-style: none;
+	font-family: universlight, serif;
+
 }
 
 
@@ -169,86 +228,4 @@ dt {
 
 #menu a:visited { 
 	color: @color-link; 
-} 
-
-
-/* = commit
--------------------------------------------------------------- */
-#commit-box{
-       float:left;
-       width: 500px;
-       margin-left: 20px;
-}
-
-.commit{
-       padding-left: 18px;
-       line-height: 1.2em;
-       margin-top: 20px;
-}
-
-.commit-message{
-       padding-left: 18px;
-       text-indent: -18px;
-       font-family: patin, serif;
-       margin-top: 5px;
-       font-size: 15px;
-       line-height: 1.25em; 
-}
-
-.commit-author{
-       text-transform: uppercase;
-}
-
-.commit-info{
-       font-family: lmitalic, serif;
-	font-size: @font-size-small; 
-       margin-left: 18px;
-}
-
-.commit-source {
-    font-size: @font-size-small;
-       margin-left: 18px;
-}
-
-
-/* = blog
--------------------------------------------------------------- */
-
-#post-box{
-	/*float: left;*/
-	margin-left:90px;
-	/*width: 250px;*/
-	margin-top: 30px;
-}
-
-.post-title{
-	text-align: left; 
-	font-family: lmroman, sans; 
-	font-size: 21px;  
-	color: black; 
-}
-
-
-// .post-title a:link {
-// 	color:black;
-// 	text-decoration:none;
-// }
-
-// .post-title a:hover { 
-// 	color: blue; 
-// } 
-
-
-
-/* = pictures
--------------------------------------------------------------- */
-#pict-box{
-	/*float:left;*/
-	/*width: 150px;*/
-	margin-top: 30px;
-	margin-left: 20px;
-}
-
-.pict{
-	margin-top: 10px;
 }
