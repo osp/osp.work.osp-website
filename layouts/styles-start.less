@@ -110,11 +110,11 @@ background: linear-gradient(left, #ffffff 37%,#ffa73d 48%,#ff7c00 54%,#ffffff 63
 //     background:green;
 }
 .iceberg-pict{
-    border: solid 1px gray;
-    width: 25px;
+//     border: solid 1px gray;
+    width: 70px;
 }
 .iceberg-pict-big{
-    border: solid 1px gray;
+//     border: solid 1px gray;
     width:250px;
     }
 // commit -------------------------------------------------
@@ -131,7 +131,7 @@ background: linear-gradient(left, #ffffff 37%,#ffa73d 48%,#ff7c00 54%,#ffffff 63
     margin-right: -1px;   
 }
 .commit{
-       padding-left: 18px;
+//        padding-left: 18px;
        line-height: 1.2em;
 }
 .commit-author{
@@ -189,12 +189,15 @@ background: linear-gradient(left, @color-author-said-gauche 0%,@color-author-sai
 }
 ///////// menu /////////
 #menu{
-    float: right;
+    position: absolute;
+    right:10px;
+    top: 10px;
     font-family: karla, sans; 
     text-transform : uppercase;
+    line-height : 18px;
     margin-top: 20px;
     margin-right:30px;
-    width: 120px;
+    width: 100px;
     font-size: 13px; 
     letter-spacing: 0.025em;
     text-align: left; 
@@ -215,10 +218,13 @@ background: linear-gradient(left, @color-author-said-gauche 0%,@color-author-sai
 #menu a:visited { 
     color: @color-link; 
 }
+
 #baseline {
     display: block;
-    font-size: @font-size-small; 
-    font-family:karla; 
+    text-transform: none;
+    font-family: patin, serif;
+    font-size: 14px;
+    color:blue;
 }
 
 
@@ -234,4 +240,36 @@ background: linear-gradient(left, @color-author-said-gauche 0%,@color-author-sai
     color: blue; 
 //     border:solid 1px;
     font-family:karla; 
+}
+
+
+// about page -------------------------------------------------
+#about-general{
+	width: 520px;
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 100%;
+	font-family: karla, sans; 
+	font-size: @font-size-medium; 
+	text-align: left; 
+	color: black; 
+}
+
+.contact{ 
+	color: blue; 
+}
+
+.osp-about-texts{
+	color: red; 
+}
+
+#about-members{
+	float : left;
+	width: 520px;
+	margin-top: 20px;
+	margin-left: 40px;
+	font-family: karla, sans; 
+	font-size: @font-size-medium; 
+	text-align: left; 
+	color: black; 
 }
