@@ -1,0 +1,27 @@
+০১২৩৪৫৬৭৮৯ABCDEF Bengali 
+૦૧૨૩૪૫૬૭૮૯abcdef Gujarati
+०१२३४५६७८९abcdef Marathi
+੦੧੨੩੪੫੬੭੮੯abcdef Gurmukhi
+൦൧൨൩൪൫൬൭൮൯abcdef Malayalam
+୦୧୨୩୪୫୬୭୮୯ABCDEF Oriya
+٠١٢٣٤٥٦٧٨٩ABCDEF Arabic
+0௧௨௩௪௫௬௭௮௯ABCDEF Tamil
+០១២៣៤៥៦៧៨៩ABCDEF Khmer
+๐๑๒๓๔๕๖๗๘๙abcdef Khmer
+໐໑໒໓໔໕໖໗໘໙abcdef Khmer
+໐໑໒໓໔໕໖໗໘໙abcdef Lao
+๐๑๒๓๔๕๖๗๘๙abcdef Thai
+〇一二三四五六七八九ABCDEF China
+영일이삼사오육칠팔구ABCDEF Korean
+0αβγδεϝζηθABCDEF Greek
+0ⅠⅡⅢⅣⅤⅥⅦⅧⅨABCDEF Roman
+0123456789−LCГE Soviet programmable calculators Б3-34
+0123456789UVWXYZ Bendix G-15 computers
+01234567890̄1̄2̄3̄4̄5̄ Macron
+0123456789FGJKQW Librascope LGP-30
+ابجدﻫوزحطABCDEF
+אבגדהוזחטABCDEF
+
+
+
+
