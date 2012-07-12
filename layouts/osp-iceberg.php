@@ -1,11 +1,5 @@
 <?php
-$url='http://ospwork.constantvzw.org/repos.json'; 
-$repos = json_decode(get_data($url), true);
-?>
-
-
- <?php
- 
+// $repos is now defined at the beginning of the parent, index.php 
  $iceberg_repos = array();
  foreach($repos as $repo) {
      if ($repo['iceberg']) {

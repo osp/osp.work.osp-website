@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+<?php
+$handle = fopen('repos.json', "r");
+$raw_api = fread($handle, filesize('repos.json'));
+fclose($handle);
+$repos = json_decode($raw_api, true);
+if ($repos === null
+    && json_last_error() !== JSON_ERROR_NONE) {
+    header('307 Temporary Redirect');
+    header('Location: http://osp.constantvzw.org/blog/');
+    die();
+}
+?><!DOCTYPE html>
 <html>
 
 <head>
