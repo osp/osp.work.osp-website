@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+<?php
+$handle = fopen('repos.json', "r");
+$raw_api = fread($handle, filesize('repos.json'));
+fclose($handle);
+$repos = json_decode($raw_api, true);
+if ($repos === null
+    && json_last_error() !== JSON_ERROR_NONE) {
+    header('307 Temporary Redirect');
+    header('Location: http://osp.constantvzw.org/blog/');
+    die();
+}
+?><!DOCTYPE html>
 <html>
 
 <head>
@@ -17,54 +28,12 @@
 
 
 <body>
-
-
-<!--
-	<div id="up-side"> 
-
-        <div id="up-side-left">
-            <div id="post-box"> 
-                <div class="pieces">
-                        Blog
-                </div>
-                <h2 class="post-title"><a href="http://osp.constantvzw.org/blog/news/switch">Switch</a></h2>
-                <p>You’re witnessing the 21-22 June 2012 OSP live layouting session, we’re switching to the iceberg paradigm. Most of osper’s are here for it. Yeah. Crosswheels on ice. ¬ [...]</p>
-            </div>
-
-            <div id="pict-box"> 
-                <div class="pieces">
-                    Pict
-                </div>
-                 <?php //require "osp-gallery.php"; ?>
-            </div>
-        </div>
-
-        <div id="iceberg"> 
-            <div class="legende-box"> 
-                Above water: portfolio ↓
-            </div>
-            <div class="pieces">
-                Works
-            </div>
-            <?php //require "osp-iceberg.php"; ?>
-        </div>
-	</div>
--->
-
-
 	<div id="active-projects">
 
 		<div id="home-infos">
 		What is that? Some says that those snapshots are to our work what the pictures of a cookbook are to the cooked meal. source files = ingredients. These arrangements of blocks of text and pictures tries harder to depict the most current projects, some interesting visual extracts and the source files that provide a convenient way to access to study it, change it, to redistribute copies of it, to improve it and release your improvements (and modified versions in general). Nous sommes embarqués.<a href="http://osp.constantvzw.org/about"> Read more about the way we work → </a>
 		</div>
-	
-<!--
-        <div class="legende-box"> 
-            Below water: sources, tools, images, stories ↓
-        </div>
--->
                 <?php require "osp-iceberg.php"; ?>
-                 <?php //require "osp-commits.php"; ?>
 	</div>
 
     <ul id="menu">
@@ -88,10 +57,7 @@ fclose($handle);
 $words = explode("---", $contents);
 echo "<p id='#baseline'>".$words[rand(0, count($words)-1)]."</p>";
 ?>
-
-
     </ul>
-
 
 </body>
 </html>
