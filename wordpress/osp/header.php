@@ -41,14 +41,8 @@ $result_random=rand(1, 7);
 </td>
 <td id="mastheadright">
 
-    <ul id="nav">
-      <li class="page_item page-item-2"><a href="/about">About</a></li>
-      <li class="page_item page-item-241"><a href="/contact">Contact</a></li>
-      <li><a href="/images/">Snapshots</a></li>
-      <li><a href="/portfolio/">Portfolio</a></li>
-      <li><a href="http://git.constantvzw.org/">Project Source Files</a></li>
-      <li><a href="/foundry/">Foundry</a></li>
-    </ul>
+    <iframe src="http://ospwork.constantvzw.org/menu.html" style="width:160px;height:340px;overflow:hidden;border:none;" />
+
      
     </td></table>
 
