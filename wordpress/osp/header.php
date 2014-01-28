@@ -43,7 +43,6 @@ $result_random=rand(1, 7);
 </td>
 <td id="mastheadright">
 
-    <iframe src="http://ospwork.constantvzw.org/menu.html" style="width:160px;height:340px;overflow:hidden;border:none;" />
 
      
     </td></table>
