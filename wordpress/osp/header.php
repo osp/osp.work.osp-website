@@ -26,7 +26,7 @@
 <div id="container">
 
 <div id="masthead">
-        <iframe src="http://osp.constantvzw.org/menu.html" style="width:100%;height:70px;overflow:hidden;border:none;"></iframe>
+        <iframe src="http://osp.constantvzw.org/menu.html" style="width:100%;height:120px;overflow:hidden;border:none;"></iframe>
     
     <table><tr><td id="mastheadleft">
 
