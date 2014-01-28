@@ -1,7 +1,5 @@
 <ul>
-    <li>
-        <iframe src="http://ospwork.constantvzw.org/menu.html" style="width:160px;height:340px;overflow:hidden;border:none;" />
-    </li>
+
 	<li>
 		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 		<?php endif; ?>
